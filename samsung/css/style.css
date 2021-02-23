@@ -1,0 +1,615 @@
+body {
+	font-family: "SamsungSharpSans-bold";
+	height:100%;
+	min-height:100%;
+	margin: 0;
+	background :#ffffff;
+	padding:0;
+	position:relative;
+}
+
+a{
+	text-decoration : none;
+}
+
+/* EnTete */
+.header {
+	padding-left:15px;
+	padding-right:15px;
+	background: #ffffff;
+	flex-direction: row;
+	display: flex;
+	align-items: center;
+	height: 50px;
+	text-decoration: none;
+	border-bottom:3px solid #12279e;
+}
+
+.logo {
+	align-self: center;
+	width :10%;
+	display: flex;
+}
+
+.icones {
+	background-color: ffffff;
+	width: 10%;
+	display: flex;
+	justify-content: space-around;
+}
+
+/* Style navbar */
+.navbar {
+	background-color: #ffffff;
+	justify-content: space-around;
+	width :80%;
+	display: flex;
+	padding-top : 8px;
+}
+
+/* Style liens navbar */
+.navbar a {
+	color: black;
+	text-align: center;
+	align-self: center;
+	justify-content: space-around;
+	transition: 0.5s;
+}
+
+/* couleur de survol */
+.navbar a:hover {
+	color: blue;
+}
+
+#txtnavbar {
+	font-size : 18px;
+	text-transform : uppercase;
+}
+
+/* On importe une police externe téléchargée sur la machine */
+@font-face {
+	font-family: "SamsungSharpSans-bold";
+	src: url("../polices/SamsungSharpSans-bold.ttf");
+} 
+
+@font-face {
+	font-family: "SamsungSharpSans";
+	src: url("../polices/SamsungSharpSans.ttf");
+} 
+
+#imgBasDP{
+	margin-top : 10px;
+	margin-bottom : 10px;
+	display: flex;
+	width: 30%;
+	justify-content: space-around;
+}
+
+#contenu-page {
+	/*display: flex ;*/ 
+	flex-direction: column ;
+	min-height: 94%;
+	width:100%;
+	margin-bottom : 9%;
+}
+
+#imgPropos{
+	width:50%;
+	height:auto;
+	display: block;
+    margin-left: auto;
+    margin-right: auto; 
+}
+
+/* Bas de page */
+#BasDePage{
+	color:white;
+	background-color:#12279e;
+	width: 100%; 
+	display: flex;
+	justify-content: space-around;
+	height:6%;
+	position : fixed;
+    bottom: 0;
+}
+
+/*---------Accueil--------*/
+
+.fold{
+	color : white;
+	background-color: #000000;
+	flex-direction : column;
+	display : flex;
+	/*justify-content : center;*/
+	padding : 2%;
+	align-items: center;
+}
+
+.text-fold{
+	color : white;
+	text-align: center;
+	font-size : 60px;
+	transition:0.35s;
+	/*width: 50%;*/
+	text-shadow: #707070 0px 0px 10px;
+}
+
+.catFold{
+	display : flex;
+	flex-direction: column;
+	width:50%;
+	padding-top:30px;
+
+}
+
+.catFold:hover .text-fold{
+	transform: translate(0%, -60%);
+	opacity: 0.0;
+	filter: blur(4px);
+}
+
+.imgFold{
+	display : flex;
+	justify-content : center;
+	padding-bottom : 2%;
+	transition: 0.5s;
+	/*width: 50%;*/
+}
+
+.catFold:hover .imgFold{
+	transform:scale(1.2) translate(0%, 5%);
+}
+
+.boutonFold {
+	border-radius : 50px;
+	color : white;
+	height : 60px;
+	width : 200px;
+	border : 2px solid white;
+	align-items : center;
+	display : flex;
+	font-size : 30px;
+	transition: 0.5s;
+	justify-content : center;
+}
+
+.boutonFold:hover{
+	border : 2px solid white;
+	background : white;
+	color : black;
+}
+
+.produit{
+	display : flex;
+	flex-direction: column;
+	width:25%;
+	padding:30px;
+	background-color:#e2e0e0;
+	border-radius : 10px;
+	transition:0.5s;
+	margin : 10px;
+	align-items: center;
+	
+}
+
+
+.produit:hover{
+	background-color:white;
+	box-shadow: 0px 0px 10px #777777;
+}
+
+.produit:hover .imgproduit{
+	transform:scale(1.1,1.1);
+}
+
+.text-produit{
+	color : black;
+	font-size : 30px;
+	transition:0.35s;
+	width: 110%;
+	text-align: center;
+}
+
+.imgproduit{
+	display : flex;
+	justify-content : center;
+	padding-bottom : 2%;
+	transition: 0.5s;
+
+}
+
+.produits{
+	color : black;
+	background-color: white;
+	display : flex;
+	padding : 2%;
+	align-items: center;
+	justify-content: space-evenly;
+}
+
+#nvGalaxy{
+	padding-top: 2%;
+	font-size: 40px;
+	text-align: center;
+}
+
+/*-------------PAGE PRODUIT-------------*/
+
+.lesProduits{
+	flex-direction:row;
+	display:flex;
+	justify-content: space-evenly;
+}
+
+.descProduit{
+/*	flex-direction: row;*/
+	width: 400px;
+	height: 600px;
+	background-color: #e2e0e0;
+	border-radius: 10px;
+	transition: 0.5s;
+	margin-top: 10%;
+
+}
+
+.descProduit:hover{
+	background-color:white;
+	box-shadow: 0px 0px 10px #777777;
+}
+
+.descImgproduit{
+	display : flex;
+	justify-content : center;
+	transition: 0.5s;
+
+}
+
+.text-descProduit{
+	color : black;
+	font-size : 30px;
+	transition:0.35s;
+	width: 100%;
+	margin-bottom: 3%;
+	margin-top: 3%;
+	text-align: center;
+}
+
+.prix-descProduit{
+	color : black;
+	font-size : 30px;
+	transition:0.35s;
+	width: 100%;
+	margin-bottom: 3%;
+	margin-top: 3%;
+	text-align: center;
+	font-family: "SamsungSharpSans";
+}
+
+.text-descProduit2{
+	color : black;
+	font-size : 20px;
+	font-family: "SamsungSharpSans";
+	width: 100%;
+	margin:0;
+	text-align: center;
+	transition: 0.1s;
+	position: relative;
+}
+
+
+.descProduit:hover .descImgproduit{
+	/*transform:scale(1.1,1.1);*/
+}
+
+.boutonProduit {
+	border-radius : 50px;
+	color : #12279e;
+	height : 50px;
+	width : 250px;
+	border : 2px solid #12279e;
+	align-items : center;
+	display : flex;
+	font-size : 25px;
+	transition: 0.1s;
+	justify-content : center;
+	opacity:0;
+	position: absolute;
+	margin-top:50%;
+}
+
+.boutonProduit:hover {
+	color : white;
+	background-color: #12279e;
+	transition: 0.3s;
+}
+
+.txtBtnProduit {
+	align-items : center;
+	flex-direction : column;
+	display : flex;
+}
+
+.descProduit:hover .boutonProduit{
+	opacity:1;
+}
+
+.descProduit:hover .text-descProduit2{
+	opacity:0;
+}
+
+.placementBouton {
+	position: absolute;
+	height : 50px;
+	width : 250px;
+}	
+
+/*-------Compte-------*/
+.compte{
+
+	font-size: 50px;
+	margin-top:5%;
+	margin-bottom:5%;
+
+}
+.formulaire{
+	display: flex;
+  	align-items: center;
+  	flex-direction: column;
+}
+
+.form{
+	width: 20%;
+	margin-bottom:3%;
+	padding-bottom:0.5%;
+	padding-top:0.5%;
+	background-color:white;
+	border-radius : 20px;
+	box-shadow: 0px 0px 10px #777777;
+}
+
+.form3{
+	width: 40%;
+	margin-bottom:3%;
+	padding-bottom:0.5%;
+	padding-top:0.5%;
+	background-color:white;
+	border-radius : 20px;
+	box-shadow: 0px 0px 10px #777777;
+}
+
+.form2{
+	display: flex;
+  	align-items: center;
+  	flex-direction: column;
+}
+
+.form4{
+	margin-left: auto;
+	margin-right:auto;
+	width: 40%;
+	margin-bottom:3%;
+	padding-bottom:0.5%;
+	padding-top:0.5%;
+	background-color:white;
+	border-radius : 20px;
+	box-shadow: 0px 0px 10px #777777;
+  	align-items: center;
+	text-align: center;
+	flex-direction: column;
+}
+
+
+.valider{
+	border-radius : 20px;
+	margin-left:30%;
+	width:40%;
+	font-family: "SamsungSharpSans-bold";
+	border : 1px solid black;
+	background-color :white;
+	height:40px;
+	font-size: 20px;
+	padding-top:1%;
+	cursor:pointer;
+}
+
+.boutonoffice{
+	border-radius : 20px;
+	height:40px;
+	font-family: "SamsungSharpSans-bold";
+	border : 1px solid black;
+	background-color :white;
+	margin-top: 4%;
+	font-size: 20px;
+}
+
+legend{
+	text-align: center;
+	font-size: 30px;
+}
+
+.boutonInsc{
+	border-radius : 50px;
+	color : #12279e;
+	height : 50px;
+	width : 250px;
+	border : 2px solid #12279e;
+	align-items : center;
+	display : flex;
+	font-size : 25px;
+	transition: 0.1s;
+	justify-content : center;
+}
+
+.boutonInsc:hover {
+	color : white;
+	background-color: #12279e;
+	transition: 0.3s;
+}
+
+.inputInfo {
+	font-family: "SamsungSharpSans-bold";
+    font-size: 15px;
+    line-height: 1.2;
+    color: #333;
+    display: block;
+    width: 100%;
+    background: #fff;
+    height: 50px;
+    border-radius: 25px;
+    padding: 0 20px 0 20px;
+    border : 1px solid black;
+    margin-bottom: 5%;
+}
+
+input {
+	
+    outline: none;
+    border: none;
+}
+
+input:focus {
+	border-color: rgba(82, 168, 236, 0.75);
+}
+
+fieldset {
+	border: 0;
+}
+
+.txt{
+	/*text-align: justify;*/
+	text-align: center;
+	margin-left:5%;
+	margin-right:5%;
+}
+
+/*PARTIE ZOOM CSS*/
+#img {
+	transform:scale(1,1);
+	transition:transform 1s;
+}
+#img:hover{
+	transform:scale(1.1,1.1);
+}
+/*FIN PARTIE ZOOM*/
+.catS10{
+	display : flex;
+	flex-direction: column;
+	width:80%;
+	padding:30px;
+
+}
+
+.catS10:hover .text-fold{
+	transform: translate(0%, -60%);
+	opacity: 0.0;
+	filter: blur(4px);
+}
+/*----------Panier-----------*/
+.prodPanier{
+	flex-direction: row;
+	display : flex;
+	background-color:#e2e0e0;
+	border-radius : 10px;
+	transition:0.5s;
+	margin-right : 5%;
+	margin-left : 5%;
+	margin-bottom : 2%;
+	/*padding: 2%;*/
+	/*align-items: center;*/
+	align-items: center;
+}
+
+.img-prodPanier{
+	padding-top:1%;
+	padding-bottom:1%;
+}
+
+.text-prodPanier{
+	font-size: 30px;
+	width:45%;
+}
+
+.prix-prodPanier{
+	font-size: 30px;
+	width:15%;
+}
+
+.qtt-prodPanier{
+	font-size: 27px;
+	width:205px;
+}
+
+.tot-prodPanier{
+	font-size: 30px;
+	width:9%;
+}
+
+.tot-prodPanier2{
+	font-size: 30px;
+}
+
+.x-prodPanier{
+	font-size: 60px;
+	color:white;
+}
+
+.text-descPanier{
+	font-size: 30px;
+	width:50%;
+	margin-left:1%;
+}
+
+.prix-descPanier{
+	font-size: 30px;
+	width:15%;
+}
+
+.qtt-descPanier{
+	font-size: 30px;
+	width:20%;
+}
+
+.tot-descPanier{
+	font-size: 30px;
+	width:15%;
+}
+
+.descPanier{
+	flex-direction: row;
+	display : flex;
+	background-color:#e2e0e0;
+	border-radius : 10px;
+	transition:0.5s;
+	margin-right : 5%;
+	margin-left : 13%;
+	margin-bottom : 1%;
+	align-items: center;
+	padding-top: 0.3%;
+}
+
+.descPanier2{
+	flex-direction: row;
+	display : flex;
+	background-color:#e2e0e0;
+	border-radius : 10px;
+	transition:0.5s;
+	margin-right : 5%;
+	margin-left : 70%;
+	margin-bottom : 1%;
+	align-items: center;
+	padding-top: 0.3%;
+}
+
+
+.inputNb {
+	font-family: "SamsungSharpSans-bold";
+    font-size: 20px;
+    color: #333;
+    display: block;
+    width: 50%;
+    background: #efefef;
+    height: 40px;
+    border-radius: 25px;
+    padding: 0 20px 0 20px;
+    border : 1px solid black;
+}

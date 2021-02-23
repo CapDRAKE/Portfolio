@@ -1,0 +1,102 @@
+<html>
+	<head>
+		<title>PROJET NOEL</title>
+		
+		<link href="noel.css" rel="stylesheet" type="text/css" media="all" />
+		<script type = "text/javascript" src = "noel.js"></script>	
+	</head>
+	<script>
+		function formulaire2()
+			{
+				var num = document.forms["formulaire"]["phone"].value;
+				var nom = document.forms["formulaire"]["Nom"].value;
+				var prenom = document.forms["formulaire"]["Prénom"].value;
+				var email = document.forms["formulaire"]["email2"].value;
+				var comptage = 0;
+				var result = "";
+				if(nom == ''){
+					comptage= comptage +1 ;
+					result=result+"nom ,";
+				}
+				if(prenom == ''){
+					comptage = comptage +1;
+					result=result+"prenom ,";
+				}
+				if(email == ''){
+					comptage = comptage +1;
+					result=result+"email ";					
+				}
+				if(num == ''){
+					comptage = comptage +1;;
+					result= result+" et num";
+				}
+				if(comptage > 0){
+					alert("Veuillez remplir les champs suivants : " +result);
+				}
+				else{
+					alert("Tout est bien remplie,Merci pour votre avis.Cela nous aide pour le développement du site ! ");
+				}
+			}
+	</script>
+		<body>
+			<img id = "imgLogo" src="Images/logoSS.png"><!--LogoSamsung-->
+		
+			<div id="menu"><!--Menu-->
+				<ul>
+					<li><a href="formulaire.html" accesskey="1" title="">Formulaire</a></li>
+					<li><a href="avis.html" accesskey="6" title="">Notre avis</a></li>	
+					<li><a href="comparaison.html" accesskey="2" title="">Comparaison</a></li>
+					<li><a href="AI.html" accesskey="3" title="">Avantages/Inconvénients</a></li>
+					<li><a href="presentation.html" accesskey="4" title="">Présentation</a></li>
+					<li><a href="noel.html" accesskey="5" title="">Entreprise</a></li>							
+				</ul>
+			</div><!--Menu-->
+			<div id="corp">
+				<img id="FormulaireImage" src="Images/fond3.jpg">
+				<div id="Formulaire">
+					<form name = "formulaire">
+						<fieldset>
+							<legend>Formulaire d'appréciation</legend>
+								Nom * &nbsp; &nbsp; &nbsp;<input type = "text" name ="Nom"  onfocus="if(this.value == 'Entrez votre Nom')this.value = '';">&nbsp;
+								Prénom * &nbsp; &nbsp; &nbsp; <input type = "text" name="Prénom" onfocus="if(this.value == 'Entrez votre prénom')this.value = '';"><br/>
+								<br/>
+								N° Portable * &nbsp;&nbsp;&nbsp;<input type = "tel" name = "phone"  pattern="[0-9]{2}[0-9]{2}[0-9]{2}[0-9]{2}[0-9]{2}" required onfocus="if(this.value == 'N°')this.value = '';"><br/>
+								<br/>
+								Email * &nbsp;&nbsp;&nbsp;<input type = "email" name = "email2"  onfocus="if(this.value == 'Entrez une email valide')this.value = '';"></br>
+								<br/>
+								Quelle note accorderiez-vous à notre site ?<br/><br/>
+								1<input type="radio" name="avis" value="1">
+								
+								2<input type="radio" name="avis" value="2">
+								
+								3<input type="radio" name="avis" value="3">
+								
+								4<input type="radio" name="avis" value="4">
+								
+								5<input type="radio" name="avis" value="5" checked>
+								<br/><br/>
+								Commentaire <br/>
+								<br/><textarea  cols="40%" rows="15%"type = "text"></textarea><br/>
+								<br/>
+								<input type= "submit" onclick="formulaire2();" value = "Valider"><!--Le bouton encleche la fonction-->
+						</fieldset>
+					</form>
+				</div>
+					
+			</div>
+
+				
+		<div id="BasDePage"><!--Bas de page du site-->
+		
+			<div id = "imgBasDP">
+				<a href="https://www.samsung.com/fr/smartphones/galaxy-note10-plus-n975/SM-N975FZSDXEF/buy/" > <img accesskey="1" title="samsung website" src="Images/www.png"></a>
+			</div>
+				
+			<div id = "imgBasDP2" >
+				<a href="#imgLogo"><img src="Images/up-arrow.png"></a>
+			</div>	
+			
+		</div><!--Bas de page du site-->
+		
+		</body>
+</html>
