@@ -76,6 +76,10 @@
       </div>
     </div>
   </header>
+	  <div class="col-lg-8 col-md-10 mx-auto">
+	          <p>Ce projet était notre deuxième projet de notre seconde année. Ce projet était un projet à réaliser en Java. Nous devions utilise une base de données que nous avions créé au préalable. Cette application devait permettre de gérer des materiels et des véhicules mais également de consulter des statistiques en fonction de l'utilisateur.</p>
+	  </div>
+	  <br/><br/>
 	
 			<div class="container">
     <!-- Example row of columns -->

@@ -78,31 +78,39 @@
   </header>
   	<div class="container">
     <div class="row">
-      <div class="col-md-4">
-        <h2>Qu'es ce que la computer vision?</h2>
-		<img src="img/site1.JPG" height="300px" width="300px">
-		  			<p>Date : 01 mars 2019 </p>
-        <p>La computer vision signifie "vision par ordinateur". C'est la capacité pour l'intelligence artificielle de voir comme l'être humain. Elle est utilisée dans pleins de domaines : la voiture autonome, caméra de surveillance, les drones... Nous ne sommes qu'au début de cette technologie et à l'avenir, elle changera entièrement notre vie.</p>
-        <p><a class="btn btn-secondary" href="https://blog.deloitte.fr/computer-vision-une-revolution-qui-ne-fait-que-commencer/" role="button">Voir le site &raquo;</a></p>
+				<div class="col-md-4">
+        <h2>La caméra du smartphone pour mesurer le rythme cardiaque et la fréquence respiratoire</h2>
+		<img src="img/google.PNG" height="300px" width="300px">
+						<p>Date : 5 février 2021 </p>
+        <p>Grâce aux appareils photo et des algorithmes de computer vision, des smartphones Android pourront servir à une mesure de fréquence cardiaque et respiratoire. Les mesures seront proposées avec l'application Google Fit. Il suffira à l'utilisateur d'appuyer son doigt légèrement sur l'appareil photo du smartphone pour la fréquence cardiaque, et de placer sa tête et le haut de son torse en face de l'appareil photo pour avoir sa fréquence respiratoire.</p>
+        <p><a class="btn btn-secondary" href="https://www.generation-nt.com/google-fit-camera-rythme-cardiaque-frequence-respiration-pixel-actualite-1985003.html" role="button">Voir le site &raquo;</a></p>
       </div>
-      <div class="col-md-4">
-        <h2>Tout savoir sur cette technologie</h2>
-		<img src="img/site2.JPG" height="300px" width="300px">
-		  			<p>Date : 28 juin 2019 </p>
-        <p>Comme cité dans l'article précédent, la computer vision est une branche de l'intelligence artificielle. L'être humain obtient la vision dès sa naissance. Mais cela n'est pas si simple pour les ordinateurs car elle ne fonctionne pas de la même manière. Par conséquent la vision par ordinateur ne parvient pas toujours à égaler la vision humaine. </p>
-        <p><a class="btn btn-secondary" href="https://www.lebigdata.fr/computer-vision-definition" role="button">Voir le site &raquo;</a></p>
+		<div class="col-md-4">
+        <h2>La vision par ordinateur dans la lutte contre la pandémie COVID-19</h2>
+		<img src="img/VCCOVIC19.PNG" height="300px" width="300px">
+			<p>Date : 5 février 2021 </p>
+        <p>En cette période agitée de la pandémie COVID-19, toutes les technologies sont mises en première ligne de la lutte antivirus et la vision par ordinateur ne fait pas exception. Mais comment les logiciels de vision par ordinateur contribuent-ils exactement à vaincre le virus? Nous pouvons voir à travers cet article, comment la computer vision a permis de détécter la présence du coronavirus</p>
+        <p><a class="btn btn-secondary" href="https://jaxenter.com/computer-vision-covid-173692.html" role="button">Voir le site &raquo;</a></p>
       </div>
-      <div class="col-md-4">
-        <h2>La voiture autonome</h2>
-		<p></p>
-		<img src="img/site3.JPG" height="300px" width="300px">
-		  			<p>Date : 10 mars 2017 </p>
-        <p>Une des branches de la computer vision est la voiture autonome. Les constructeurs y sont nombreux : Tesla, Nissan, Google... Le fonctionnement est très simple : les voitures utilisent des caméras et des capteurs afin de se diriger et de prévoir les dangers. Et même si les voitures ne sont pas encore entièrement autonomes, elles sont déjà capable d'éviter des accidents.</p>
-        <p><a class="btn btn-secondary" href="https://www.lebigdata.fr/vehicules-autonomes-big-data" role="button">Voir le site &raquo;</a></p>
+				<div class="col-md-4">
+        <h2>Un super marché automatisé et exclusivement basé sur la computer vision</h2>
+			<hr/>
+		<img src="img/marche.PNG" height="300px" width="300px">
+						<p>Date : 8 décembre 2020 </p>
+        <p>Reposant exclusivement sur des technologies de vision par ordinateur, le nouveau magasin autonome d'AiFi porte à quatre le nombre d'établissements opérés par la start-up californienne à Shanghai. Une accélération qui témoigne des ambitions du concurrent d’Amazon Go, avec l’ouverture de plus de 330 magasins prévus en 2021.                                                                                          </p>
+        <p><a class="btn btn-secondary" href="https://www.usine-digitale.fr/article/a-shanghai-aifi-inaugure-un-supermarche-automatise-et-exclusivement-base-sur-la-vision-par-ordinateur.N1037719" role="button">Voir le site &raquo;</a></p>
       </div>
     </div>
 	<div class="row">
-	  <div class="col-md-4">
+<div class="col-md-4">
+		<h2>Computer vision | Covid 19</h2>
+		  <hr/>
+		<img src="img/covid.PNG" height="300px" width="300px">
+		  			<p>Date : 3 mars 2020 </p>
+		<p>En Chine, des médecins utilisent un logiciel capable de dépister les cas de coronavirus SARS-CoV-2. Via un scanner thoracique, l'algorithme peut détecter les signes cliniques d'une pneumonie, pathologie associée à la maladie Covid-19. Développé par la start-up pékinoise Infervision, ce système permet de prioriser la prise en charge des patients. Des tests sont actuellement en cours en Europe et aux Etats-Unis pour un futur déploiement.</p>
+		<p><a class="btn btn-secondary" href="https://www.usine-digitale.fr/article/en-chine-des-medecins-utilisent-la-vision-par-ordinateur-pour-depister-le-coronavirus.N936199" role="button">Voir le site &raquo;</a></p>
+	</div>
+			  <div class="col-md-4">
 		<h2>La reconnaissance faciale</h2>
 		  <hr/>
 		<img src="img/site4.JPG" height="300px" width="300px">
@@ -110,6 +118,22 @@
 		<p>La reconnaissance faciale est également une branche de la computer vision. Elle est présente dans pleins de choses comme nos smartphones, les caméras de surveillances, ou même dans des robots. Cette technologie analyse en 3D un visage (ou en 2D dans certains cas) pour vérifier l'identité. Apple a été le premier à mettre une reconnaissance faciale 3D dans ses smartphones.</p>
 		<p><a class="btn btn-secondary" href="https://www.lebigdata.fr/reconnaissance-faciale-tout-savoir" role="button">Voir le site &raquo;</a></p>
 	</div>
+		      <div class="col-md-4">
+        <h2>Tout savoir sur cette technologie</h2>
+		<img src="img/site2.JPG" height="300px" width="300px">
+		  			<p>Date : 28 juin 2019 </p>
+        <p>Comme cité dans l'article précédent, la computer vision est une branche de l'intelligence artificielle. L'être humain obtient la vision dès sa naissance. Mais cela n'est pas si simple pour les ordinateurs car elle ne fonctionne pas de la même manière. Par conséquent la vision par ordinateur ne parvient pas toujours à égaler la vision humaine. </p>
+        <p><a class="btn btn-secondary" href="https://www.lebigdata.fr/computer-vision-definition" role="button">Voir le site &raquo;</a></p>
+      </div>
+	</div>
+	<div class="row">
+		      <div class="col-md-4">
+        <h2>Qu'es ce que la computer vision?</h2>
+		<img src="img/site1.JPG" height="300px" width="300px">
+		  			<p>Date : 01 mars 2019 </p>
+        <p>La computer vision signifie "vision par ordinateur". C'est la capacité pour l'intelligence artificielle de voir comme l'être humain. Elle est utilisée dans pleins de domaines : la voiture autonome, caméra de surveillance, les drones... Nous ne sommes qu'au début de cette technologie et à l'avenir, elle changera entièrement notre vie.</p>
+        <p><a class="btn btn-secondary" href="https://blog.deloitte.fr/computer-vision-une-revolution-qui-ne-fait-que-commencer/" role="button">Voir le site &raquo;</a></p>
+      </div>
 	<div class="col-md-4">
 		<h2>DON, le robot qui apprend en regardant</h2>
 		<hr/>
@@ -118,29 +142,13 @@
 		<p>Comme cité dans l'article précédent, la computer vision est une branche de l'intelligence artificielle. L'être humain obtient la vision dès sa naissance. Mais cela n'est pas si simple pour les ordinateurs car elle ne fonctionne pas de la même manière. Par conséquent la vision par ordinateur ne parvient pas toujours à égaler la vision humaine. </p>
 		<p><a class="btn btn-secondary" href="https://dailygeekshow.com/don-intelligence-artificielle-vision-par-ordinateur-robotique/" role="button">Voir le site &raquo;</a></p>
 	</div>
-		<div class="col-md-4">
-        <h2>La vision par ordinateur dans la lutte contre la pandémie COVID-19</h2>
-		<img src="img/VCCOVIC19.PNG" height="300px" width="300px">
-			<p>Date : 5 février 2021 </p>
-        <p>En cette période agitée de la pandémie COVID-19, toutes les technologies sont mises en première ligne de la lutte antivirus et la vision par ordinateur ne fait pas exception. Mais comment les logiciels de vision par ordinateur contribuent-ils exactement à vaincre le virus? Nous pouvons voir à travers cet article, comment la computer vision a permis de détécter la présence du coronavirus</p>
-        <p><a class="btn btn-secondary" href="https://www.lebigdata.fr/computer-vision-definition" role="button">Voir le site &raquo;</a></p>
-      </div>
-	</div>
-			<div class="row">
-		<div class="col-md-4">
-        <h2>La caméra du smartphone pour mesurer le rythme cardiaque et la fréquence respiratoire</h2>
-		<img src="img/google.PNG" height="300px" width="300px">
-						<p>Date : 5 février 2021 </p>
-        <p>Grâce aux appareils photo et des algorithmes de computer vision, des smartphones Android pourront servir à une mesure de fréquence cardiaque et respiratoire. Les mesures seront proposées avec l'application Google Fit. Il suffira à l'utilisateur d'appuyer son doigt légèrement sur l'appareil photo du smartphone pour la fréquence cardiaque, et de placer sa tête et le haut de son torse en face de l'appareil photo pour avoir sa fréquence respiratoire.</p>
-        <p><a class="btn btn-secondary" href="https://www.generation-nt.com/google-fit-camera-rythme-cardiaque-frequence-respiration-pixel-actualite-1985003.html" role="button">Voir le site &raquo;</a></p>
-      </div>
-		<div class="col-md-4">
-        <h2>Un super marché automatisé et exclusivement basé sur la computer vision</h2>
-			<hr/>
-		<img src="img/marche.PNG" height="300px" width="300px">
-						<p>Date : 8 décembre 2020 </p>
-        <p>Reposant exclusivement sur des technologies de vision par ordinateur, le nouveau magasin autonome d'AiFi porte à quatre le nombre d'établissements opérés par la start-up californienne à Shanghai. Une accélération qui témoigne des ambitions du concurrent d’Amazon Go, avec l’ouverture de plus de 330 magasins prévus en 2021.                                                                                          </p>
-        <p><a class="btn btn-secondary" href="https://www.usine-digitale.fr/article/a-shanghai-aifi-inaugure-un-supermarche-automatise-et-exclusivement-base-sur-la-vision-par-ordinateur.N1037719" role="button">Voir le site &raquo;</a></p>
+		      <div class="col-md-4">
+        <h2>La voiture autonome</h2>
+		<p></p>
+		<img src="img/site3.JPG" height="300px" width="300px">
+		  			<p>Date : 10 mars 2017 </p>
+        <p>Une des branches de la computer vision est la voiture autonome. Les constructeurs y sont nombreux : Tesla, Nissan, Google... Le fonctionnement est très simple : les voitures utilisent des caméras et des capteurs afin de se diriger et de prévoir les dangers. Et même si les voitures ne sont pas encore entièrement autonomes, elles sont déjà capable d'éviter des accidents.</p>
+        <p><a class="btn btn-secondary" href="https://www.lebigdata.fr/vehicules-autonomes-big-data" role="button">Voir le site &raquo;</a></p>
       </div>
 		</div>
   <hr>

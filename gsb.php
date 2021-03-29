@@ -76,6 +76,10 @@
       </div>
     </div>
   </header>
+	  <div class="col-lg-8 col-md-10 mx-auto">
+	          <p>Ce projet était notre premier projet de notre 2ème année. A travers ce projet nous devions découvrir le fonctionnement MVC. Nous devions reprendre une application web déjà existante et l'améliorer afin de répondre à un cahier des charges.</p>
+	  </div>
+	  <br/><br/>
 	
 			<div class="container">
     <!-- Example row of columns -->

@@ -77,6 +77,10 @@
       </div>
     </div>
   </header>
+	  <div class="col-lg-8 col-md-10 mx-auto">
+	          <p>Ceci est notre premier projet. L'objectif était de réaliser un site "vitrine" à travers lequel nous devions présenter la chose que l'on souhaiterait avoir pour noël. Ce projet était notre premier vrai projet de BTS et nous devions le réaliser en binôme.</p>
+	  </div>
+	  <br/><br/>
 	
 		<div class="container">
     <!-- Example row of columns -->

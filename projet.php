@@ -132,8 +132,8 @@
       <div class="col-md-4">
         <h2>GSB3 gestion des conférences</h2>
 		<img src="img/GSB1.png" height="200px" width="300px">
-        <p></p><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
-        <p><a class="btn btn-secondary" href="#" role="button">Bientôt... &raquo;</a></p>
+        <p>Ce projet était le troisième de notre 2ème année. Nous devions le réaliser en binôme. Nous devions apprendre à utiliser le framework codeigniter. Nous devions créer une application web permettant à un visiteur de voir, s'inscrire, et participer à une conférence, et à un responsable de consulter les statistiques des inscriptions. </p>
+        <p><a class="btn btn-secondary" href="gsb3.php" role="button">Voir le projet &raquo;</a></p>
       </div>
 	</div></center>
 	</div>

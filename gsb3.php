@@ -28,7 +28,7 @@
   <!-- Navigation -->
   <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
     <div class="container">
-      <a class="navbar-brand" href="index.php">Bastien LEUWERS</a>
+      <a class="navbar-brand" href="index.html">Bastien LEUWERS</a>
       <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
         Menu
         <i class="fas fa-bars"></i>
@@ -61,24 +61,23 @@
   <!-- Page Header -->
   <header class="masthead" style="background-image: url('img/projet.jpg')">
     <div class="overlay"></div>
-	  	<div id="particles-js" >
+	  	  	<div id="particles-js" >
     <div class="container">
       <div class="row">
         <div class="col-lg-8 col-md-10 mx-auto">
           <div class="site-heading">
-			  <!-- particles.js container -->
-<!-- scripts -->
+			  <!-- scripts -->
 <script src="particles.js-master/particles.js"></script>
 			  <script src="js/app.js"></script>
-            <h1>Site marchand</h1>
-            <span class="subheading">Projet avec utilisation de bases de données MySQL</span>
+            <h1>GSB gestion des conférences</h1>
+            <span class="subheading">Projet CodeIgniter</span>
           </div>
         </div>
       </div>
     </div>
   </header>
-	  	  <div class="col-lg-8 col-md-10 mx-auto">
-	          <p>Ceci est notre deuxième projet. C'est probablement le projet sut lequel nous avons passé le plus de temps. Nous l'avions commencé en janvier/février 2020 et l'avons terminé en septembre 2020. Ce projet, qu'est un site marchand, s'est divisé en plusieurs étapes : tout d'abord, un site vitrine. Par la suite, nous devions réaliser la liaison avec une base de données que nous devions créer. Enfin, nous devions effectuer certaines modifications, comme faire le panier en variable de session etc...</p>
+	  <div class="col-lg-8 col-md-10 mx-auto">
+	          <p>Ce projet était notre dernier projet de notre seconde année. Ce projet était un projet web que nous devions réaliser durant notre stage. Nous devions utilise une base de données que nous avions créé au préalable. Nous avions une application Java pour nous aider. Cette application web devait être créée à l'aide du framework CodeIgniter. Cette application devait permettre la gestion des conférences, l'inscription, et la consultation des statistiques en fonction de l'utilisateur.</p>
 	  </div>
 	  <br/><br/>
 	
@@ -86,34 +85,33 @@
     <!-- Example row of columns -->
     <div class="row">
       <div class="col-md-4">
-		<img src="img/marchand1.jpg" height="200px" width="300px">
-        <p>Accueil du site</p>
+		<img src="img/co.png" height="300px" width="300px">
+        <p>Connexion</p>
       </div>
       <div class="col-md-4">
-		<img src="img/marchand2.jpg" height="200px" width="300px">
-        <p>Les produits</p>
+		<img src="img/affich.png" height="300px" width="300px">
+        <p>Page d'affichage des conférences</p>
       </div>
       <div class="col-md-4">
-		<img src="img/marchand3.jpg" height="200px" width="300px">
-        <p>Panier</p>
+		<img src="img/inscription.png" height="300px" width="300px">
+        <p>Inscription à une conférence</p>
       </div>
     </div>
 		 <hr>
 	    <div class="row">
       <div class="col-md-4">
-		<img src="img/marchand4.jpg" height="200px" width="300px">
-        <p>Back Office</p>
+		<img src="img/stats.png" height="300px" width="300px">
+        <p>Statistiques des inscriptions</p>
       </div>
       <div class="col-md-4">
-		<img src="img/marchand5.jpg" height="200px" width="300px">
-        <p>A propos</p>
+		<img src="img/stats2.png" height="300px" width="300px">
+        <p>Statistiques des inscriptions sans participation</p>
       </div>
       <div class="col-md-4">
-		<img src="img/marchand6.jpg" height="200px" width="300px">
-        <p>Facture</p>
+		<img src="img/participation.png" height="300px" width="300px">
+        <p>Statistiques des participations</p>
       </div>
     </div>
-					        <p><center><a class="btn btn-secondary" href="samsung/accueil.php" role="button">Voir le site &raquo;</a></center></p>
 
   <hr>
 
@@ -147,7 +145,7 @@
               </a>
             </li>
           </ul>
-          <p class="copyright text-muted">Copyright &copy; Mon portfolio 2020</p>
+          <p class="copyright text-muted">Copyright &copy; Mon portfolio 2021</p>
         </div>
       </div>
     </div>

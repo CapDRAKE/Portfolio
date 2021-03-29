@@ -76,6 +76,11 @@
       </div>
     </div>
   </header>
+	  	  	  <div class="col-lg-8 col-md-10 mx-auto">
+	          <p>Ce projet était un projet à réaliser durant nos vacances. Nous devions réaliser le jeu de notre choix dans le langage Java</p>
+	  </div>
+	  <br/><br/>
+	
 	
 			<div class="container">
     <!-- Example row of columns -->
