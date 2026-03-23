@@ -911,6 +911,12 @@ header.masthead .post-heading > i {
     linear-gradient(135deg, rgba(255, 255, 255, 0.04), rgba(11, 11, 11, 0.98));
 }
 
+.project-media-brand.bot-brand {
+  background:
+    radial-gradient(circle at top right, rgba(88, 101, 242, 0.2), transparent 36%),
+    linear-gradient(135deg, rgba(88, 101, 242, 0.16), rgba(11, 11, 11, 0.98));
+}
+
 .brand-mark {
   display: inline-flex;
   align-items: center;
@@ -935,6 +941,11 @@ header.masthead .post-heading > i {
   font-family: "JetBrains Mono", monospace;
   font-size: 1.05rem;
   color: #ffb703;
+}
+
+.bot-brand .brand-mark {
+  background: rgba(88, 101, 242, 0.18);
+  color: #c4cdff;
 }
 
 .brand-copy {

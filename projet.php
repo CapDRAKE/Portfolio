@@ -131,6 +131,25 @@
             <a class="btn btn-primary" href="https://github.com/CapDRAKE/AlternativeAPI-1.5.3-RELOADED" target="_blank" rel="noopener">Voir le GitHub</a>
           </div>
         </article>
+
+        <article class="project-card current-project">
+          <div class="project-media project-media-brand bot-brand">
+            <span class="brand-mark"><i class="fab fa-discord"></i></span>
+            <div class="brand-copy">
+              <span class="brand-title">MajestyBot</span>
+              <span class="brand-subtitle">Discord Bot</span>
+            </div>
+          </div>
+          <div class="project-meta">
+            <span class="project-badge project-badge-accent">Outil communautaire</span>
+            <span class="project-badge">JavaScript / Discord</span>
+          </div>
+          <h3>MajestyBot V2</h3>
+          <p>Bot Discord développé pour l'écosystème Majesty, avec gestion des rôles, messages de bienvenue, commandes de modération, historique persistant et système anti-spam avec timeout automatique.</p>
+          <div class="project-actions">
+            <a class="btn btn-primary" href="https://github.com/CapDRAKE/MajestyBot-V2/tree/main" target="_blank" rel="noopener">Voir le GitHub</a>
+          </div>
+        </article>
       </div>
     </section>
 
