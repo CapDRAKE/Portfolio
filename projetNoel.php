@@ -39,16 +39,13 @@
             <a class="nav-link" href="index.php">Accueil</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="propos.php">A propos de moi</a>
+                                <a class="nav-link" href="propos.php">À propos de moi</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="projet.php">Mes projets</a>
           </li>
 		  <li class="nav-item">
-            <a class="nav-link" href="veille.php">Veille</a>
-          </li>
-		  <li class="nav-item">
-            <a class="nav-link" href="experiences.php">Experiences</a>
+                                <a class="nav-link" href="experiences.php">Expériences</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="contact.php">Contactez-moi</a>

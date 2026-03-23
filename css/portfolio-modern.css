@@ -355,6 +355,7 @@ header.masthead .post-heading .subheading {
 .btn-success {
   position: relative;
   overflow: hidden;
+  isolation: isolate;
   display: inline-flex;
   align-items: center;
   justify-content: center;
@@ -406,7 +407,7 @@ header.masthead .post-heading .subheading {
 }
 
 .btn-secondary {
-  background: rgba(255, 255, 255, 0.06);
+  background: rgba(22, 22, 22, 0.92);
   color: var(--text-1);
   border: 1px solid rgba(255, 255, 255, 0.08);
   box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.04);
@@ -415,7 +416,7 @@ header.masthead .post-heading .subheading {
 .btn-secondary:hover,
 .btn-secondary:focus {
   color: var(--white);
-  background: rgba(255, 255, 255, 0.1);
+  background: rgba(30, 30, 30, 0.96);
   box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.08);
 }
 
@@ -524,7 +525,7 @@ header.masthead .post-heading .subheading {
   margin-bottom: 1.4rem;
   padding: 0.6rem 1rem;
   border-radius: 999px;
-  background: rgba(230, 57, 70, 0.12);
+  background: rgba(24, 15, 17, 0.92);
   border: 1px solid rgba(230, 57, 70, 0.22);
   color: #ff9aa1;
   font-size: 0.8rem;
@@ -761,7 +762,7 @@ header.masthead .post-heading .subheading {
   display: flex;
   align-items: center;
   justify-content: center;
-  min-height: 180px;
+  min-height: 190px;
   margin-bottom: 1.15rem;
   padding: 1.2rem;
   border: 1px solid rgba(255, 255, 255, 0.08);
@@ -769,9 +770,10 @@ header.masthead .post-heading .subheading {
   background:
     linear-gradient(180deg, rgba(255, 255, 255, 0.04), rgba(255, 255, 255, 0.015)),
     rgba(11, 11, 11, 0.92);
+  overflow: hidden;
 }
 
-.project-card .project-media > img {
+.project-card .project-media > img:not(.project-logo) {
   width: 100%;
   height: 100%;
   margin: 0;
@@ -780,13 +782,48 @@ header.masthead .post-heading .subheading {
 }
 
 .project-card .project-media.project-media-logo {
-  min-height: 200px;
+  min-height: 190px;
+  padding: 1.35rem;
+}
+
+.project-card .project-media.project-media-cover {
+  position: relative;
+  padding: 0;
+}
+
+.project-cover-bg {
+  position: absolute;
+  inset: 0;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  transform: scale(1.03);
+  filter: saturate(1.04);
+}
+
+.project-media-cover::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(180deg, rgba(8, 8, 8, 0.16), rgba(8, 8, 8, 0.76));
+}
+
+.project-cover-content {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  padding: 1.6rem;
 }
 
 .project-card .project-media.project-media-brand {
+  flex-direction: column;
   align-items: flex-start;
-  justify-content: space-between;
-  gap: 18px;
+  justify-content: center;
+  gap: 16px;
   padding: 1.5rem;
 }
 
@@ -851,7 +888,7 @@ header.masthead .post-heading .subheading {
 
 .project-card .project-logo {
   max-width: 100%;
-  max-height: 130px;
+  max-height: 124px;
   width: auto;
   height: auto;
   margin: 0;
@@ -859,6 +896,15 @@ header.masthead .post-heading .subheading {
   border: 0;
   box-shadow: none;
   border-radius: 0;
+}
+
+.project-card .project-logo.project-logo-launcher {
+  max-height: 118px;
+}
+
+.project-card .project-logo.project-logo-craft {
+  max-width: 82%;
+  max-height: 112px;
 }
 
 .project-card.current-project {

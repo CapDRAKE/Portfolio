@@ -24,10 +24,9 @@
       <div class="collapse navbar-collapse" id="navbarResponsive">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item"><a class="nav-link" href="index.php">Accueil</a></li>
-          <li class="nav-item"><a class="nav-link" href="propos.php">A propos</a></li>
+          <li class="nav-item"><a class="nav-link" href="propos.php">À propos</a></li>
           <li class="nav-item"><a class="nav-link" href="projet.php">Mes projets</a></li>
-          <li class="nav-item"><a class="nav-link" href="veille.php">Veille</a></li>
-          <li class="nav-item"><a class="nav-link" href="experiences.php">Experiences</a></li>
+          <li class="nav-item"><a class="nav-link" href="experiences.php">Expériences</a></li>
           <li class="nav-item"><a class="nav-link" href="contact.php">Contact</a></li>
         </ul>
       </div>
@@ -65,7 +64,7 @@
             <span class="project-badge">Veille juridique</span>
           </div>
           <h3>Veille juridique</h3>
-          <p>Un second axe de veille pour suivre les dimensions juridiques qui accompagnent les usages numeriques et les evolutions du secteur.</p>
+            <p>Un second axe de veille pour suivre les dimensions juridiques qui accompagnent les usages numériques et les évolutions du secteur.</p>
         </article>
       </div>
     </section>

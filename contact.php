@@ -24,10 +24,9 @@
       <div class="collapse navbar-collapse" id="navbarResponsive">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item"><a class="nav-link" href="index.php">Accueil</a></li>
-          <li class="nav-item"><a class="nav-link" href="propos.php">A propos</a></li>
+          <li class="nav-item"><a class="nav-link" href="propos.php">À propos</a></li>
           <li class="nav-item"><a class="nav-link" href="projet.php">Mes projets</a></li>
-          <li class="nav-item"><a class="nav-link" href="veille.php">Veille</a></li>
-          <li class="nav-item"><a class="nav-link" href="experiences.php">Experiences</a></li>
+          <li class="nav-item"><a class="nav-link" href="experiences.php">Expériences</a></li>
           <li class="nav-item"><a class="nav-link" href="contact.php">Contact</a></li>
         </ul>
       </div>
@@ -40,7 +39,7 @@
       <div class="page-heading">
         <div class="hero-badge"><i class="fas fa-envelope"></i> Contact</div>
         <h1>Me contacter</h1>
-        <span class="subheading">Pour echanger sur un projet, une experience ou une opportunite professionnelle.</span>
+        <span class="subheading">Pour échanger sur un projet, une expérience ou une opportunité professionnelle.</span>
       </div>
     </div>
   </header>
@@ -49,9 +48,9 @@
     <section class="site-section reveal">
       <div class="section-shell split-layout">
         <div>
-          <div class="section-tag">Coordonnees</div>
+        <div class="section-tag">Coordonnées</div>
           <h2>Restons en contact</h2>
-          <p class="section-lead">Tu peux utiliser le formulaire ci-dessous si tu souhaites me poser une question, demander plus d'informations ou simplement me faire un retour sur le portfolio.</p>
+        <p class="section-lead">Tu peux utiliser le formulaire ci-dessous si tu souhaites me poser une question, demander plus d'informations ou simplement échanger autour d'un projet ou d'une mission.</p>
           <div class="career-list">
             <article class="career-card">
               <div class="meta">Email</div>

@@ -24,10 +24,9 @@
       <div class="collapse navbar-collapse" id="navbarResponsive">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item"><a class="nav-link" href="index.php">Accueil</a></li>
-          <li class="nav-item"><a class="nav-link" href="propos.php">A propos</a></li>
+          <li class="nav-item"><a class="nav-link" href="propos.php">À propos</a></li>
           <li class="nav-item"><a class="nav-link" href="projet.php">Mes projets</a></li>
-          <li class="nav-item"><a class="nav-link" href="veille.php">Veille</a></li>
-          <li class="nav-item"><a class="nav-link" href="experiences.php">Experiences</a></li>
+          <li class="nav-item"><a class="nav-link" href="experiences.php">Expériences</a></li>
           <li class="nav-item"><a class="nav-link" href="contact.php">Contact</a></li>
         </ul>
       </div>

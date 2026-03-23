@@ -3,9 +3,9 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta name="description" content="Portfolio de Bastien Leuwers, developpeur Full Stack a dominante Java.">
+  <meta name="description" content="Bastien Leuwers, développeur Full Stack à dominante Java.">
   <meta name="author" content="Bastien Leuwers">
-  <title>Bastien Leuwers | Portfolio</title>
+  <title>Bastien Leuwers | Développeur Full Stack</title>
   <link rel="stylesheet" media="screen" href="css/style.css">
   <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
   <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
@@ -24,10 +24,9 @@
       <div class="collapse navbar-collapse" id="navbarResponsive">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item"><a class="nav-link" href="index.php">Accueil</a></li>
-          <li class="nav-item"><a class="nav-link" href="propos.php">A propos</a></li>
+          <li class="nav-item"><a class="nav-link" href="propos.php">À propos</a></li>
           <li class="nav-item"><a class="nav-link" href="projet.php">Mes projets</a></li>
-          <li class="nav-item"><a class="nav-link" href="veille.php">Veille</a></li>
-          <li class="nav-item"><a class="nav-link" href="experiences.php">Experiences</a></li>
+          <li class="nav-item"><a class="nav-link" href="experiences.php">Expériences</a></li>
           <li class="nav-item"><a class="nav-link" href="contact.php">Contact</a></li>
         </ul>
       </div>
@@ -39,14 +38,14 @@
     <div class="container">
       <div class="home-hero-grid">
         <div class="hero-copy site-heading">
-          <div class="hero-badge"><i class="fas fa-layer-group"></i> Portfolio nouvelle version</div>
-          <h1>Developpeur Full Stack, avec une dominante Java et une vraie culture produit.</h1>
-          <span class="subheading">Je concois des applications, des plateformes et des outils autour du logiciel, du back-end, de la data et du web quand c'est pertinent. Cette version du portfolio met davantage en avant mes projets actuels et mon parcours recent.</span>
+          <div class="hero-badge"><i class="fas fa-layer-group"></i> Développeur Full Stack</div>
+          <h1>Je développe des applications, des plateformes et des outils avec une dominante Java et Linux.</h1>
+          <span class="subheading">Ingénieur logiciel chez SII en mission chez Thales, je cumule plus de 4 ans d'expérience entre alternance et entreprise sur des sujets Java, Linux, data et produits applicatifs. En parallèle, je développe aussi des projets personnels autour de Minecraft, de l'IA et d'outils pensés pour l'utilisateur.</span>
           <div class="hero-actions">
             <a class="btn btn-primary btn-xl" href="projet.php"><i class="fas fa-rocket"></i> Voir mes projets</a>
-            <a class="btn btn-secondary btn-xl" href="experiences.php"><i class="fas fa-briefcase"></i> Voir mes experiences</a>
+            <a class="btn btn-secondary btn-xl" href="experiences.php"><i class="fas fa-briefcase"></i> Voir mes expériences</a>
           </div>
-          <p class="hero-mini-note">Positionnement mis a jour: Full Stack, plutot Java, avec une experience sur les applications, les launchers, la data et les produits web.</p>
+          <p class="hero-mini-note">Full Stack, avec un cœur de stack autour de Linux, Java, SQL et du développement applicatif.</p>
         </div>
         <div class="hero-visual reveal">
           <div class="hero-code-window">
@@ -59,8 +58,8 @@
             <span class="hero-code-line"><span class="accent">secondary</span>: <span class="value">"JavaScript, PHP, Spark, Angular"</span></span>
             <span class="hero-code-line"><span class="accent">focus</span>: <span class="value">"applications, plateformes et produits"</span></span>
             <div class="hero-side-card">
-              <strong>Site en evolution</strong>
-              Le portfolio continue d'evoluer, mais les sections principales et les projets mis en avant sont deja a jour.
+              <strong>Focus actuel</strong>
+              Java, Linux, architecture logicielle, data et produits techniques.
             </div>
           </div>
         </div>
@@ -71,10 +70,10 @@
   <main class="container">
     <section class="site-section">
       <div class="stats-strip reveal">
-        <div class="stat-card"><div class="stat-value">10+</div><div class="stat-label">Projets presentes</div></div>
-        <div class="stat-card"><div class="stat-value">Java</div><div class="stat-label">Dominante technique</div></div>
-        <div class="stat-card"><div class="stat-value">ESGI</div><div class="stat-label">Cursus recent</div></div>
-        <div class="stat-card"><div class="stat-value">2024</div><div class="stat-label">Ingenierie logicielle</div></div>
+        <div class="stat-card"><div class="stat-value">4+</div><div class="stat-label">Années d'expérience</div></div>
+        <div class="stat-card"><div class="stat-value">Linux</div><div class="stat-label">Environnement clé</div></div>
+        <div class="stat-card"><div class="stat-value">10+</div><div class="stat-label">Projets présentés</div></div>
+        <div class="stat-card"><div class="stat-value">3 ans</div><div class="stat-label">Maintenance AlternativeAPI</div></div>
       </div>
     </section>
 
@@ -82,12 +81,12 @@
       <div class="section-shell split-layout">
         <div>
           <div class="section-tag">Profil</div>
-          <h2>Un profil Full Stack plus proche du logiciel que du simple site vitrine.</h2>
-          <p class="section-lead">Je m'appelle Bastien Leuwers. Mon parcours m'a amene du BTS SIO vers un Bachelor Intelligence Artificielle et Big Data, puis un Master Architecture des Logiciels a l'ESGI. Aujourd'hui, j'evolue sur des sujets Java, Linux, data et produits applicatifs, tout en gardant une bonne polyvalence web.</p>
+          <h2>Un profil polyvalent, avec un ancrage fort côté logiciel.</h2>
+          <p class="section-lead">Je m'appelle Bastien Leuwers. Mon parcours m'a mené du BTS SIO vers un Bachelor Intelligence Artificielle et Big Data, puis un Master Architecture des Logiciels à l'ESGI. Aujourd'hui, j'évolue sur des sujets Java, Linux, data et produits applicatifs, avec plus de 4 ans d'expérience entre alternance et entreprise.</p>
           <ul class="check-list">
-            <li>Developpeur Full Stack a dominante Java.</li>
-            <li>Experience en logiciel, data, applications et produits web.</li>
-            <li>Cursus recent davantage centre sur l'ESGI et l'ingenierie logicielle.</li>
+            <li>Développeur Full Stack à dominante Java, avec Linux très présent au quotidien.</li>
+            <li>Expérience en logiciel, data, applications et produits web.</li>
+            <li>Parcours structuré autour de l'ESGI et de l'ingénierie logicielle.</li>
           </ul>
           <div class="hero-actions">
             <a class="btn btn-primary" href="propos.php">Voir mon parcours</a>
@@ -98,7 +97,7 @@
           <img src="img/bastien-cv.jpg" alt="Portrait de Bastien Leuwers">
           <div>
             <h3>Bastien Leuwers</h3>
-            <p>Full Stack, avec un coeur de competence sur Java, les environnements Linux, les applications metier et les produits techniques.</p>
+            <p>Full Stack, avec un cœur de compétence sur Java, Linux, les applications métier et les produits techniques, et plus de 4 ans d'expérience accumulée depuis 2021.</p>
             <div class="project-meta">
               <span class="project-badge project-badge-accent">Java</span>
               <span class="project-badge">SQL</span>
@@ -112,26 +111,26 @@
     </section>
 
     <section class="site-section reveal">
-      <div class="section-tag">A explorer</div>
-      <h2>Les pages a consulter en priorite.</h2>
-      <p class="section-lead">La navigation a ete resserree pour mettre en avant ce qui compte vraiment aujourd'hui: projets actuels, experiences professionnelles et cursus recent.</p>
+      <div class="section-tag">À découvrir</div>
+      <h2>Projets, expériences et parcours.</h2>
+      <p class="section-lead">Le site présente à la fois mes projets personnels, mes expériences en entreprise et le parcours qui m'a amené vers l'ingénierie logicielle.</p>
       <div class="feature-grid">
         <article class="feature-card-modern">
           <div class="card-icon"><i class="fas fa-code"></i></div>
           <h3>Mes projets</h3>
-          <p>Les projets actuels passent d'abord, puis les projets de BTS en bas de page pour mieux refleter mon niveau actuel.</p>
+          <p>Produits personnels, outils en ligne, projets Java et réalisations de BTS qui ont posé les bases de mon parcours.</p>
           <a class="btn btn-secondary" href="projet.php">Voir les projets</a>
         </article>
         <article class="feature-card-modern">
           <div class="card-icon"><i class="fas fa-briefcase"></i></div>
-          <h3>Experiences</h3>
-          <p>SII, Thales et G2S sont maintenant mis au premier plan, avec le stage BTS conserve de maniere plus discrete.</p>
-          <a class="btn btn-secondary" href="experiences.php">Voir les experiences</a>
+          <h3>Expériences</h3>
+          <p>SII, Thales et G2S, avec des sujets autour de Java, Linux, Spark et du développement d'applications.</p>
+          <a class="btn btn-secondary" href="experiences.php">Voir les expériences</a>
         </article>
         <article class="feature-card-modern">
           <div class="card-icon"><i class="fas fa-user-graduate"></i></div>
           <h3>Cursus</h3>
-          <p>Un parcours mis a jour avec l'ESGI davantage valorisee que le BTS, sans pour autant l'effacer.</p>
+          <p>De l'ESGI au BTS SIO, avec un parcours progressivement orienté vers le logiciel, la data et l'architecture.</p>
           <a class="btn btn-secondary" href="propos.php">Voir le cursus</a>
         </article>
       </div>
@@ -140,15 +139,15 @@
     <section class="site-section reveal">
       <div class="section-shell">
         <div class="section-tag">Projets mis en avant</div>
-        <h2>Les projets qui representent le mieux mon niveau actuel.</h2>
-        <p class="section-lead">J'ai volontairement replace ici les projets produits et les projets maintenus dans la duree, plutot que les projets de BTS.</p>
+        <h2>Des projets qui reflètent bien mon profil.</h2>
+        <p class="section-lead">On y retrouve à la fois de la plateforme web, du launcher Java et la maintenance d'une base technique utilisée dans la durée.</p>
         <div class="project-grid">
           <article class="project-card current-project">
             <div class="project-media project-media-brand challenge-brand">
               <span class="brand-mark"><i class="fas fa-fire"></i></span>
               <div class="brand-copy">
                 <span class="brand-title">MajestyChallenge</span>
-                <span class="brand-subtitle">AI Coding Challenge</span>
+              <span class="brand-subtitle">Challenges IA</span>
               </div>
             </div>
             <div class="project-meta">
@@ -156,19 +155,24 @@
               <span class="project-badge">EdTech</span>
             </div>
             <h3>MajestyChallenge</h3>
-            <p>Une plateforme de coding challenge assistee par l'IA, pensee pour l'apprentissage, l'evaluation et la progression sur plusieurs langages.</p>
+            <p>Une plateforme de coding challenge assistée par l'IA, pensée pour l'apprentissage, l'évaluation et la progression sur plusieurs langages.</p>
             <div class="project-actions">
               <a class="btn btn-primary" href="https://majestychallenge.fr/" target="_blank" rel="noopener">Voir le site</a>
             </div>
           </article>
           <article class="project-card current-project">
-            <div class="project-media project-media-logo"><img class="project-logo" src="img/majestylauncher-logo.gif" alt="Logo MajestyLauncher"></div>
+            <div class="project-media project-media-cover launcher-cover">
+              <div class="project-cover-bg" style="background-image: url('img/majestylauncher-accueil.jpg')"></div>
+              <div class="project-cover-content">
+                <img class="project-logo project-logo-launcher" src="img/majestylauncher-logo.gif" alt="Logo MajestyLauncher">
+              </div>
+            </div>
             <div class="project-meta">
               <span class="project-badge project-badge-accent">Produit personnel</span>
               <span class="project-badge">Java / Launcher</span>
             </div>
             <h3>MajestyLauncher</h3>
-            <p>Launcher dedie a l'univers MajestyCraft avec gestion des versions, des mods, d'OptiFine, de Forge et une experience utilisateur plus propre et structuree.</p>
+            <p>Un launcher Java dédié à l'univers MajestyCraft, avec gestion des versions, des mods, d'OptiFine, de Forge et une expérience pensée pour simplifier l'accès au jeu.</p>
             <div class="project-actions">
               <a class="btn btn-primary" href="https://majestylauncher.com/" target="_blank" rel="noopener">Voir le site</a>
               <a class="btn btn-secondary" href="https://github.com/CapDRAKE/MajestyCraft-4.0" target="_blank" rel="noopener">GitHub</a>
@@ -179,7 +183,7 @@
               <span class="brand-mark">{ API }</span>
               <div class="brand-copy">
                 <span class="brand-title">AlternativeAPI</span>
-                <span class="brand-subtitle">JavaFX launcher base</span>
+                <span class="brand-subtitle">Base JavaFX</span>
               </div>
             </div>
             <div class="project-meta">
@@ -187,7 +191,7 @@
               <span class="project-badge">JavaFX</span>
             </div>
             <h3>AlternativeAPI Reloaded</h3>
-            <p>Reprise et maintenance de la librairie AlternativeAPI depuis 3 ans, pour servir de base a des launchers Minecraft plus modernes.</p>
+            <p>Je maintiens cette librairie depuis trois ans. Elle sert de base JavaFX pour des launchers Minecraft et couvre les besoins techniques liés au téléchargement, au lancement et à la compatibilité.</p>
             <div class="project-actions">
               <a class="btn btn-primary" href="https://github.com/CapDRAKE/AlternativeAPI-1.5.3-RELOADED" target="_blank" rel="noopener">Voir le GitHub</a>
             </div>
@@ -199,16 +203,16 @@
     <section class="site-section reveal">
       <div class="section-shell split-layout">
         <div>
-          <div class="section-tag">Cursus recent</div>
-          <h2>L'ESGI constitue aujourd'hui le coeur de mon parcours de formation.</h2>
-          <p class="section-lead">Mon parcours recent s'est surtout construit a l'ESGI, avec un Bachelor Intelligence Artificielle et Big Data puis un Master Architecture des Logiciels.</p>
+          <div class="section-tag">Formation</div>
+          <h2>L'ESGI a structuré la partie la plus récente de mon parcours.</h2>
+          <p class="section-lead">Bachelor Intelligence Artificielle et Big Data, puis Master Architecture des Logiciels : deux étapes importantes dans ma progression vers des sujets plus orientés logiciel, architecture et développement applicatif.</p>
         </div>
         <div class="career-card school-card">
           <div class="school-logo school-wordmark" aria-label="ESGI"><span>ESGI</span></div>
           <div>
             <div class="meta">ESGI</div>
             <h3>Bachelor IA & Big Data puis Master Architecture des Logiciels</h3>
-            <p>Formation plus avancee en Java, architecture, bases de donnees, clean code, mobile et environnements applicatifs.</p>
+            <p>Formation autour de Java, de l'architecture, des bases de données, du clean code, du mobile et des environnements applicatifs.</p>
           </div>
         </div>
       </div>
@@ -217,9 +221,9 @@
     <section class="site-section reveal">
       <div class="contact-strip">
         <div>
-          <div class="section-tag">Echange</div>
-          <h2>Envie d'en savoir plus sur un projet, une experience ou mon positionnement technique ?</h2>
-          <p class="section-lead">Le portfolio continue d'evoluer, mais la base est maintenant plus proche de ce que je veux montrer aujourd'hui.</p>
+          <div class="section-tag">Échange</div>
+          <h2>Envie d'échanger sur un projet, une expérience ou une techno ?</h2>
+          <p class="section-lead">Je peux détailler davantage mes missions, mes choix techniques ou le fonctionnement de certains projets si besoin.</p>
         </div>
         <div class="hero-actions">
           <a class="btn btn-primary" href="contact.php">Me contacter</a>
