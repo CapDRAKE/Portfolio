@@ -39,8 +39,8 @@
     <div class="container">
       <div class="page-heading">
         <div class="hero-badge"><i class="fas fa-user"></i> Profil</div>
-        <h1>Un parcours qui a evolue vers le developpement logiciel et web.</h1>
-        <span class="subheading">Cette page reprend mon parcours, mes competences, mon CV et mon cursus mis a jour a partir de mon CV le plus recent.</span>
+        <h1>Developpeur Full Stack, avec une dominante Java et un parcours recent plus logiciel.</h1>
+        <span class="subheading">Cette page reprend mon parcours, mon cursus, mes competences et mon CV, avec une mise en avant plus nette de l'ESGI et de mon positionnement actuel.</span>
       </div>
     </div>
   </header>
@@ -51,22 +51,21 @@
         <div>
           <div class="section-tag">Presentation</div>
           <h2>Bastien Leuwers</h2>
-          <p class="section-lead">Developpeur full-stack, aujourd'hui oriente logiciel, data et applications web. Mon parcours m'a amene du BTS SIO vers un Bachelor Intelligence Artificielle et Big Data, puis vers un Master Architecture des Logiciels, en parallele d'experiences en alternance et en entreprise.</p>
+          <p class="section-lead">Developpeur full-stack, aujourd'hui davantage oriente logiciel, Java, data et applications que simple developpement web. Mon parcours m'a amene du BTS SIO vers un Bachelor Intelligence Artificielle et Big Data, puis vers un Master Architecture des Logiciels, en parallele d'experiences en alternance et en entreprise.</p>
           <div class="project-meta">
             <span class="project-badge project-badge-accent">Java</span>
-            <span class="project-badge">Python</span>
             <span class="project-badge">SQL</span>
-            <span class="project-badge">PHP</span>
-            <span class="project-badge">JavaScript</span>
+            <span class="project-badge">Linux</span>
             <span class="project-badge">Spark</span>
             <span class="project-badge">Angular</span>
+            <span class="project-badge">JavaScript</span>
           </div>
         </div>
         <div class="profile-card floating-card">
-          <img src="img/bastien.PNG" alt="Portrait de Bastien Leuwers">
+          <img src="img/bastien-cv.jpg" alt="Portrait de Bastien Leuwers">
           <div>
-            <h3>En bref</h3>
-            <p>Ingenieur logiciel chez SII en mission chez Thales depuis octobre 2024, apres une alternance de trois ans chez G2S et un stage de BTS chez i-BP.</p>
+            <h3>Positionnement actuel</h3>
+            <p>Full Stack, avec un coeur de competence sur Java, l'architecture logicielle, les environnements Linux et les applications metier.</p>
             <div class="hero-actions">
               <a class="btn btn-primary" href="cv/CV_Bastien_Leuwers.pdf" target="_blank" rel="noopener">Ouvrir le CV</a>
               <a class="btn btn-secondary" href="experiences.php">Voir mes experiences</a>
@@ -78,8 +77,53 @@
 
     <section class="site-section reveal">
       <div class="section-shell">
+        <div class="section-tag">Cursus recent</div>
+        <h2>L'ESGI est aujourd'hui la partie la plus structurante de mon parcours.</h2>
+        <div class="course-list">
+          <article class="career-card school-card">
+            <div class="school-logo school-wordmark" aria-label="ESGI"><span>ESGI</span></div>
+            <div>
+              <div class="meta">2022 - 2024</div>
+              <h3>Master Architecture des Logiciels</h3>
+              <p>ESGI Paris</p>
+              <p>Langage C et Java avance, Python, Android, Flutter, Clean Code, NodeJS ...</p>
+            </div>
+          </article>
+          <article class="career-card school-card">
+            <div class="school-logo school-wordmark" aria-label="ESGI"><span>ESGI</span></div>
+            <div>
+              <div class="meta">2021 - 2022</div>
+              <h3>Bachelor Intelligence Artificielle et Big Data</h3>
+              <p>ESGI Paris</p>
+              <p>Conception et base de donnees, langage C et Java avance, Python...</p>
+            </div>
+          </article>
+          <article class="career-card school-card school-card-muted">
+            <div class="school-logo school-wordmark school-wordmark-muted" aria-label="BTS SIO"><span>BTS</span></div>
+            <div>
+              <div class="meta">2019 - 2021</div>
+              <h3>BTS Service informatique aux organisations - Mention Bien</h3>
+              <p>Lycee Parc Des Loges, Evry</p>
+            </div>
+          </article>
+          <article class="career-card">
+            <div class="meta">2018 - 2019</div>
+            <h3>1ere annee DUT Carriere Juridique</h3>
+            <p>IUT de Troyes</p>
+          </article>
+          <article class="career-card">
+            <div class="meta">2018</div>
+            <h3>Baccalaureat STMG - Mention Assez Bien</h3>
+            <p>Lycee Truffaut, Bondoufle - option Ressources Humaines</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="site-section reveal">
+      <div class="section-shell">
         <div class="section-tag">BTS SIO</div>
-        <h2>Le BTS SIO (Services Informatiques aux Organisations)</h2>
+        <h2>Le BTS SIO reste un point d'entree important, mais il n'est plus le centre du profil.</h2>
         <p class="section-lead">Le BTS Services informatiques aux Organisations est un diplome reconnu par l'etat de niveau Bac+2. Il remplace depuis septembre 2011 l'ancien BTS informatique de Gestion (BTS IG). En effet, cette nouvelle formule repond aux attentes de la profession en matiere de qualification. Le programme a evolue en fonction de la place et du role des TIC (Technologies d'Information Communication) et propose deux specialites bien distinctes : le BTS SIO SISR et le BTS SIO SLAM.</p>
         <div class="split-layout">
           <div class="image-frame"><img src="img/bts_sio.png" alt="BTS SIO"></div>
@@ -128,65 +172,13 @@
 
     <section class="site-section reveal">
       <div class="section-shell">
-        <div class="section-tag">Cursus</div>
-        <h2>Mon cursus</h2>
-        <div class="course-list">
-          <article class="career-card">
-            <div class="meta">2022 - 2024</div>
-            <h3>Master Architecture des Logiciels</h3>
-            <p>ESGI Paris</p>
-            <p>Langage C et Java avance, Python, Android, Flutter, Clean Code, NodeJS ...</p>
-          </article>
-          <article class="career-card">
-            <div class="meta">2021 - 2022</div>
-            <h3>Bachelor Intelligence Artificielle et Big Data</h3>
-            <p>ESGI Paris</p>
-            <p>Conception et base de donnees, langage C et Java avance, Python...</p>
-          </article>
-          <article class="career-card">
-            <div class="meta">2019 - 2021</div>
-            <h3>BTS Service informatique aux organisations - Mention Bien</h3>
-            <p>Lycee Parc Des Loges, Evry</p>
-          </article>
-          <article class="career-card">
-            <div class="meta">2018 - 2019</div>
-            <h3>1ere annee DUT Carriere Juridique</h3>
-            <p>IUT de Troyes</p>
-          </article>
-          <article class="career-card">
-            <div class="meta">2018</div>
-            <h3>Baccalaureat STMG - Mention Assez Bien</h3>
-            <p>Lycee Truffaut, Bondoufle - option Ressources Humaines</p>
-          </article>
-        </div>
-      </div>
-    </section>
-
-    <section class="site-section reveal">
-      <div class="section-shell">
         <div class="section-tag">Centres d'interet</div>
-        <h2>Mes centres d'interets</h2>
+        <h2>Mes centres d'interet</h2>
         <div class="timeline-grid">
-          <article class="timeline-card">
-            <div class="meta">Technique</div>
-            <h3>Informatique et gestion d'un serveur Minecraft</h3>
-            <p>En partenariat avec Minestrator.</p>
-          </article>
-          <article class="timeline-card">
-            <div class="meta">Sport et musique</div>
-            <h3>Cyclisme, footing, musculation, batterie</h3>
-            <p>Je pratique egalement la musique et je garde une place importante pour le rythme et l'energie dans mon quotidien.</p>
-          </article>
-          <article class="timeline-card">
-            <div class="meta">Collectif</div>
-            <h3>Danse country</h3>
-            <p>Creation d'un club.</p>
-          </article>
-          <article class="timeline-card">
-            <div class="meta">Ouverture</div>
-            <h3>Voyages</h3>
-            <p>Espagne, Republique dominicaine, Sicile, Turquie, Kenya.</p>
-          </article>
+          <article class="timeline-card"><div class="meta">Technique</div><h3>Informatique et gestion d'un serveur Minecraft</h3><p>En partenariat avec Minestrator.</p></article>
+          <article class="timeline-card"><div class="meta">Sport et musique</div><h3>Cyclisme, footing, musculation, batterie</h3><p>Je pratique egalement la musique et je garde une place importante pour le rythme et l'energie dans mon quotidien.</p></article>
+          <article class="timeline-card"><div class="meta">Collectif</div><h3>Danse country</h3><p>Creation d'un club.</p></article>
+          <article class="timeline-card"><div class="meta">Ouverture</div><h3>Voyages</h3><p>Espagne, Republique dominicaine, Sicile, Turquie, Kenya.</p></article>
         </div>
       </div>
     </section>

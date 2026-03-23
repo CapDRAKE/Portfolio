@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta name="description" content="Projets réalisés par Bastien Leuwers pendant son parcours.">
+  <meta name="description" content="Projets realises par Bastien Leuwers pendant son parcours.">
   <meta name="author" content="Bastien Leuwers">
   <title>Mes projets | Bastien Leuwers</title>
   <link rel="stylesheet" media="screen" href="css/style.css">
@@ -39,8 +39,8 @@
     <div class="container">
       <div class="page-heading">
         <div class="hero-badge"><i class="fas fa-folder-open"></i> Selection de projets</div>
-        <h1>Des projets de BTS, puis des produits plus ambitieux et maintenus dans la duree.</h1>
-        <span class="subheading">Le portfolio melange des projets de formation et des projets personnels plus recents. Les dossiers Samsung, Morpion et Noel restent intacts: seule leur mise en valeur dans le portfolio a ete retravaillee.</span>
+        <h1>Des projets actuels, des produits deployes et un historique BTS conserve plus bas.</h1>
+        <span class="subheading">La page est maintenant triee pour mieux representer mon niveau actuel: produits, maintenance et projets recents en premier, puis projets de BTS en seconde partie.</span>
       </div>
     </div>
   </header>
@@ -48,18 +48,90 @@
   <main class="container page-frame">
     <section class="site-section reveal">
       <div class="portfolio-note">
-        <div class="section-tag">Vue d'ensemble</div>
-        <h2>Une progression visible entre projets de formation et projets produits.</h2>
-        <p class="section-lead">Cette page presente d'abord les projets realises pendant le BTS, puis les projets personnels et produits plus recents autour de MajestyLauncher, MajestyCraft, MajestyChallenge et de la librairie AlternativeAPI.</p>
+        <div class="section-tag">Maintenant</div>
+        <h2>Les projets qui me representent le mieux aujourd'hui.</h2>
+        <p class="section-lead">Ces projets sont ceux que je veux mettre le plus en avant actuellement: produits, plateformes, launcher et maintenance d'une librairie dans la duree.</p>
       </div>
     </section>
 
     <section class="site-section reveal">
-      <div class="section-tag">Projets BTS</div>
-      <h2>Les projets historiques du portfolio.</h2>
+      <div class="section-tag">Projets actuels</div>
+      <h2>Produits, maintenance et projets en ligne.</h2>
+      <div class="project-grid">
+        <article class="project-card current-project">
+          <div class="project-media project-media-brand challenge-brand">
+            <span class="brand-mark"><i class="fas fa-fire"></i></span>
+            <div class="brand-copy">
+              <span class="brand-title">MajestyChallenge</span>
+              <span class="brand-subtitle">AI Coding Challenge</span>
+            </div>
+          </div>
+          <div class="project-meta">
+            <span class="project-badge project-badge-accent">Plateforme IA</span>
+            <span class="project-badge">EdTech</span>
+          </div>
+          <h3>MajestyChallenge</h3>
+          <p>Plateforme de coding challenge assistee par l'IA, orientee apprentissage et evaluation, avec exercices interactifs, generation IA, execution instantanee et suivi de progression sur plusieurs langages.</p>
+          <div class="project-actions">
+            <a class="btn btn-primary" href="https://majestychallenge.fr/" target="_blank" rel="noopener">Voir le site</a>
+          </div>
+        </article>
+
+        <article class="project-card current-project">
+          <div class="project-media project-media-logo"><img class="project-logo" src="img/majestylauncher-logo.gif" alt="Logo MajestyLauncher"></div>
+          <div class="project-meta">
+            <span class="project-badge project-badge-accent">Produit personnel</span>
+            <span class="project-badge">Java / Launcher</span>
+          </div>
+          <h3>MajestyLauncher / MajestyCraft 4.0</h3>
+          <p>Launcher dedie a l'univers MajestyCraft, presente comme un launcher francais avec gestion des versions Minecraft, compatibilite OptiFine et Forge, gestion des mods et packs de ressources, et integration d'un telechargement simplifie.</p>
+          <div class="project-actions">
+            <a class="btn btn-primary" href="https://majestylauncher.com/" target="_blank" rel="noopener">Voir le site</a>
+            <a class="btn btn-secondary" href="https://github.com/CapDRAKE/MajestyCraft-4.0" target="_blank" rel="noopener">Voir le GitHub</a>
+          </div>
+        </article>
+
+        <article class="project-card current-project">
+          <div class="project-media project-media-logo"><img class="project-logo" src="img/majestycraft-logo.png" alt="Logo MajestyCraft"></div>
+          <div class="project-meta">
+            <span class="project-badge project-badge-accent">Produit en ligne</span>
+            <span class="project-badge">Minecraft</span>
+          </div>
+          <h3>MajestyCraft</h3>
+          <p>Serveur Minecraft multijoueur centre sur plusieurs modes comme Survie, PvP Box, Skyblock et Creatif, avec une experience pensee pour durer, des systemes exclusifs et un lien direct avec MajestyLauncher.</p>
+          <div class="project-actions">
+            <a class="btn btn-primary" href="https://majestycraft.com/" target="_blank" rel="noopener">Voir le site</a>
+          </div>
+        </article>
+
+        <article class="project-card current-project">
+          <div class="project-media project-media-brand api-brand">
+            <span class="brand-mark">{ API }</span>
+            <div class="brand-copy">
+              <span class="brand-title">AlternativeAPI</span>
+              <span class="brand-subtitle">JavaFX launcher base</span>
+            </div>
+          </div>
+          <div class="project-meta">
+            <span class="project-badge project-badge-accent">Librairie maintenue</span>
+            <span class="project-badge">JavaFX</span>
+          </div>
+          <h3>AlternativeAPI Reloaded</h3>
+          <p>J'ai repris la librairie AlternativeAPI et je la maintiens depuis 3 ans. Elle sert de base JavaFX pour des launchers Minecraft et couvre notamment les usages Forge 1.13+ et les fichiers distants necessaires au lancement.</p>
+          <div class="project-actions">
+            <a class="btn btn-primary" href="https://github.com/CapDRAKE/AlternativeAPI-1.5.3-RELOADED" target="_blank" rel="noopener">Voir le GitHub</a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="site-section reveal">
+      <div class="section-tag">Projets de BTS</div>
+      <h2>Les projets de BTS presents dans le portfolio.</h2>
+      <p class="section-lead">Ils restent disponibles et importants dans mon parcours, mais ils passent ici apres les projets plus actuels pour mieux refleter mon positionnement d'aujourd'hui.</p>
       <div class="project-grid">
         <article class="project-card">
-          <img src="img/noel1.jpg" alt="Projet Noel">
+          <div class="project-media"><img src="img/noel1.jpg" alt="Projet Noel"></div>
           <div class="project-meta">
             <span class="project-badge project-badge-accent">Projet en binome</span>
             <span class="project-badge">HTML / CSS / JS</span>
@@ -73,13 +145,13 @@
         </article>
 
         <article class="project-card">
-          <img src="img/marchand1.jpg" alt="Projet site marchand Samsung">
+          <div class="project-media"><img src="img/marchand1.jpg" alt="Projet site marchand Samsung"></div>
           <div class="project-meta">
             <span class="project-badge project-badge-accent">Projet vitrine + data</span>
             <span class="project-badge">PHP / SQL</span>
           </div>
           <h3>Site marchand</h3>
-          <p>Un projet plus ambitieux avec catalogue, base de donnees, espace administrable et logique e-commerce. C'est l'une des realisations les plus completes du portfolio.</p>
+          <p>Un projet plus ambitieux avec catalogue, base de donnees, espace administrable et logique e-commerce. C'est l'une des realisations les plus completes des projets de BTS.</p>
           <div class="project-actions">
             <a class="btn btn-primary" href="projetMarchand.php">Voir le projet</a>
             <a class="btn btn-secondary" href="samsung/accueil.php">Ouvrir le site</a>
@@ -87,7 +159,7 @@
         </article>
 
         <article class="project-card">
-          <img src="img/morpion.PNG" alt="Jeu Morpion en Java">
+          <div class="project-media"><img src="img/morpion.PNG" alt="Jeu Morpion en Java"></div>
           <div class="project-meta">
             <span class="project-badge project-badge-accent">Projet solo</span>
             <span class="project-badge">Java</span>
@@ -100,7 +172,7 @@
         </article>
 
         <article class="project-card">
-          <img src="img/gsb.jpg" alt="Projet GSB gestion des frais">
+          <div class="project-media project-media-logo"><img class="project-logo" src="img/gsb.jpg" alt="GSB gestion des frais"></div>
           <div class="project-meta">
             <span class="project-badge project-badge-accent">Projet en binome</span>
             <span class="project-badge">PHP / MVC</span>
@@ -113,7 +185,7 @@
         </article>
 
         <article class="project-card">
-          <img src="img/GSB1.png" alt="Projet GSB gestion des materiels">
+          <div class="project-media project-media-logo"><img class="project-logo" src="img/GSB1.png" alt="GSB gestion des materiels"></div>
           <div class="project-meta">
             <span class="project-badge project-badge-accent">Application Java</span>
             <span class="project-badge">Java / Base de donnees</span>
@@ -126,7 +198,7 @@
         </article>
 
         <article class="project-card">
-          <img src="img/GSB1.png" alt="Projet GSB gestion des conferences">
+          <div class="project-media project-media-logo"><img class="project-logo" src="img/GSB1.png" alt="GSB gestion des conferences"></div>
           <div class="project-meta">
             <span class="project-badge project-badge-accent">Framework web</span>
             <span class="project-badge">CodeIgniter</span>
@@ -135,65 +207,6 @@
           <p>Une application web construite avec CodeIgniter pour consulter, gerer et suivre des inscriptions a des conferences.</p>
           <div class="project-actions">
             <a class="btn btn-primary" href="gsb3.php">Voir le projet</a>
-          </div>
-        </article>
-      </div>
-    </section>
-
-    <section class="site-section reveal">
-      <div class="section-tag">Produits et maintenance</div>
-      <h2>Des projets personnels plus recents, deployes ou maintenus.</h2>
-      <div class="project-grid">
-        <article class="project-card">
-          <img src="img/majestylauncher-accueil.jpg" alt="MajestyLauncher">
-          <div class="project-meta">
-            <span class="project-badge project-badge-accent">Produit personnel</span>
-            <span class="project-badge">Launcher Minecraft</span>
-          </div>
-          <h3>MajestyLauncher / MajestyCraft 4.0</h3>
-          <p>Launcher dedie a l'univers MajestyCraft, presente comme un launcher francais avec gestion des versions Minecraft, compatibilite OptiFine et Forge, gestion des mods et packs de ressources, et integration d'un telechargement simplifie.</p>
-          <div class="project-actions">
-            <a class="btn btn-primary" href="https://majestylauncher.com/" target="_blank" rel="noopener">Voir le site</a>
-            <a class="btn btn-secondary" href="https://github.com/CapDRAKE/MajestyCraft-4.0" target="_blank" rel="noopener">Voir le GitHub</a>
-          </div>
-        </article>
-
-        <article class="project-card">
-          <img src="img/majestycraft-bg.jpg" alt="MajestyCraft">
-          <div class="project-meta">
-            <span class="project-badge project-badge-accent">Produit en ligne</span>
-            <span class="project-badge">Minecraft</span>
-          </div>
-          <h3>MajestyCraft</h3>
-          <p>Serveur Minecraft multijoueur centre sur plusieurs modes comme Survie, PvP Box, Skyblock et Creatif, avec une experience pensee pour durer, des systemes exclusifs et un lien direct avec MajestyLauncher.</p>
-          <div class="project-actions">
-            <a class="btn btn-primary" href="https://majestycraft.com/" target="_blank" rel="noopener">Voir le site</a>
-          </div>
-        </article>
-
-        <article class="project-card">
-          <img src="img/majestychallenge-favicon.png" alt="MajestyChallenge">
-          <div class="project-meta">
-            <span class="project-badge project-badge-accent">Plateforme IA</span>
-            <span class="project-badge">EdTech</span>
-          </div>
-          <h3>MajestyChallenge</h3>
-          <p>Plateforme de coding challenge assistee par l'IA, orientee apprentissage et evaluation, avec exercices interactifs, generation IA, execution instantanee et suivi de progression sur plusieurs langages.</p>
-          <div class="project-actions">
-            <a class="btn btn-primary" href="https://majestychallenge.fr/" target="_blank" rel="noopener">Voir le site</a>
-          </div>
-        </article>
-
-        <article class="project-card">
-          <img src="img/majestylauncher-param.jpg" alt="AlternativeAPI">
-          <div class="project-meta">
-            <span class="project-badge project-badge-accent">Librairie reprise</span>
-            <span class="project-badge">JavaFX</span>
-          </div>
-          <h3>AlternativeAPI Reloaded</h3>
-          <p>J'ai repris la librairie AlternativeAPI et je la maintiens depuis 3 ans. Elle sert de base JavaFX pour des launchers Minecraft et couvre notamment les usages Forge 1.13+ et les fichiers distants necessaires au lancement.</p>
-          <div class="project-actions">
-            <a class="btn btn-primary" href="https://github.com/CapDRAKE/AlternativeAPI-1.5.3-RELOADED" target="_blank" rel="noopener">Voir le GitHub</a>
           </div>
         </article>
       </div>
@@ -220,4 +233,3 @@
   <script src="js/clean-blog.min.js"></script>
 </body>
 </html>
-
