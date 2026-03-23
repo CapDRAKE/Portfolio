@@ -87,7 +87,7 @@
             <ul class="check-list">
               <li>9 spécialisations informatiques du bachelor au mastère.</li>
               <li>Alternance possible dès la première année.</li>
-              <li>18 campus en France selon la présentation de l'école.</li>
+              <li>18 campus en France.</li>
             </ul>
             <p>J'y ai suivi un Bachelor Intelligence Artificielle et Big Data, puis un Master Architecture des Logiciels, avec une progression centrée sur Java, la conception et les environnements applicatifs.</p>
           </div>

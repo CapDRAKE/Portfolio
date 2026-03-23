@@ -51,12 +51,25 @@
         <h2>Mes expériences récentes</h2>
         <div class="career-list">
           <article class="career-card">
+            <div class="company-logo-strip">
+              <span class="company-logo-chip">
+                <img class="company-logo" src="img/sii-logo.svg" alt="Logo SII">
+              </span>
+              <span class="company-logo-chip">
+                <img class="company-logo" src="img/thales-logo.svg" alt="Logo Thales">
+              </span>
+            </div>
             <div class="meta">Depuis octobre 2024</div>
             <h3>Ingénieur Logiciel chez SII en mission chez Thales</h3>
             <p>Rungis, Limours</p>
             <p>Développement Java sous environnement Linux.</p>
           </article>
           <article class="career-card">
+            <div class="company-logo-strip">
+              <span class="company-logo-chip">
+                <img class="company-logo company-logo-g2s" src="img/g2s-logo.jpg" alt="Logo G2S">
+              </span>
+            </div>
             <div class="meta">Septembre 2021 - 2024</div>
             <h3>Alternant au sein de l'entreprise G2S (Groupama Supports Services)</h3>
             <p>Ingénieur data, développement d'applications Spark pour la migration de bases de données, et développement d'applications Java/JavaScript.</p>
@@ -70,6 +83,14 @@
         <div>
           <div class="section-tag">Expérience actuelle</div>
           <h2>SII / Thales</h2>
+          <div class="company-logo-strip">
+            <span class="company-logo-chip">
+              <img class="company-logo" src="img/sii-logo.svg" alt="Logo SII">
+            </span>
+            <span class="company-logo-chip">
+              <img class="company-logo" src="img/thales-logo.svg" alt="Logo Thales">
+            </span>
+          </div>
           <p class="section-lead">Depuis octobre 2024, j'évolue comme ingénieur logiciel chez SII en mission chez Thales, avec un travail centré sur le développement Java dans un environnement Linux.</p>
           <div class="inline-note"><i class="fas fa-server"></i><span>Java, Linux, environnement d'entreprise</span></div>
         </div>
@@ -86,6 +107,11 @@
         <div>
           <div class="section-tag">Alternance</div>
           <h2>G2S (Groupama Supports Services)</h2>
+          <div class="company-logo-strip">
+            <span class="company-logo-chip">
+              <img class="company-logo company-logo-g2s" src="img/g2s-logo.jpg" alt="Logo G2S">
+            </span>
+          </div>
           <p class="section-lead">Alternance menée de septembre 2021 à 2024 autour de la data et du développement applicatif.</p>
           <ul class="check-list">
             <li>Ingénieur data.</li>

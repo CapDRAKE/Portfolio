@@ -1054,6 +1054,11 @@ header.masthead .post-heading > i {
   margin-bottom: 0;
 }
 
+.feature-card-modern > .btn {
+  margin-top: auto;
+  padding-top: 0.95rem;
+}
+
 .split-layout {
   display: grid;
   grid-template-columns: minmax(0, 1.05fr) minmax(280px, 0.95fr);
@@ -1580,6 +1585,42 @@ footer a:focus .fa-circle {
   gap: 18px;
 }
 
+.company-logo-strip {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-bottom: 1rem;
+}
+
+.company-logo-chip {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 72px;
+  padding: 0.65rem 0.9rem;
+  border-radius: 20px;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  background: rgba(255, 255, 255, 0.03);
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.04);
+}
+
+.company-logo {
+  display: block;
+  width: auto;
+  height: 32px;
+  max-width: 150px;
+  object-fit: contain;
+  border: 0;
+  border-radius: 0;
+  box-shadow: none;
+}
+
+.company-logo.company-logo-g2s {
+  height: 54px;
+  max-width: 76px;
+  border-radius: 14px;
+}
+
 .school-card {
   display: grid;
   grid-template-columns: auto 1fr;
@@ -1772,6 +1813,18 @@ body > .container > .row > .col-4 h2 {
   .image-grid,
   .gallery-row {
     grid-template-columns: 1fr;
+  }
+
+  .company-logo-chip {
+    min-height: 64px;
+  }
+
+  .company-logo {
+    height: 28px;
+  }
+
+  .company-logo.company-logo-g2s {
+    height: 46px;
   }
 
   .hero-actions,
