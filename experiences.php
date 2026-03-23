@@ -39,7 +39,7 @@
       <div class="page-heading">
         <div class="hero-badge"><i class="fas fa-briefcase"></i> Expérience professionnelle</div>
         <h1>Des expériences orientées logiciel, data et environnements d'entreprise.</h1>
-        <span class="subheading">SII, Thales et G2S occupent aujourd'hui une place centrale dans mon parcours, avec plus de 4 ans d'expérience autour de Java, Linux, Spark et du développement applicatif.</span>
+        <span class="subheading">SII, Thales et G2S occupent aujourd'hui une place centrale dans mon parcours, avec plus de 4 ans d'expérience autour de Java, Spark et du développement applicatif.</span>
       </div>
     </div>
   </header>

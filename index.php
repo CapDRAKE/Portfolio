@@ -39,13 +39,13 @@
       <div class="home-hero-grid">
         <div class="hero-copy site-heading">
           <div class="hero-badge"><i class="fas fa-layer-group"></i> Développeur Full Stack</div>
-          <h1>Je développe des applications, des plateformes et des outils avec une dominante Java et Linux.</h1>
-          <span class="subheading">Ingénieur logiciel chez SII en mission chez Thales, je cumule plus de 4 ans d'expérience entre alternance et entreprise sur des sujets Java, Linux, data et produits applicatifs. En parallèle, je développe aussi des projets personnels autour de Minecraft, de l'IA et d'outils pensés pour l'utilisateur.</span>
+          <h1>Je développe des applications, des plateformes et des outils avec une dominante Java.</h1>
+          <span class="subheading">Ingénieur logiciel chez SII en mission chez Thales, je cumule plus de 4 ans d'expérience entre alternance et entreprise sur des sujets Java, data, produits applicatifs et développement d'outils. En parallèle, je développe aussi des projets personnels autour de Minecraft, de l'IA et d'expériences pensées pour l'utilisateur.</span>
           <div class="hero-actions">
             <a class="btn btn-primary btn-xl" href="projet.php"><i class="fas fa-rocket"></i> Voir mes projets</a>
             <a class="btn btn-secondary btn-xl" href="experiences.php"><i class="fas fa-briefcase"></i> Voir mes expériences</a>
           </div>
-          <p class="hero-mini-note">Full Stack, avec un cœur de stack autour de Linux, Java, SQL et du développement applicatif.</p>
+          <p class="hero-mini-note">Full Stack, avec un cœur de stack autour de Java, SQL et du développement applicatif.</p>
         </div>
         <div class="hero-visual reveal">
           <div class="hero-code-window">
@@ -54,12 +54,12 @@
               <span>developer.profile</span>
             </div>
             <span class="hero-code-line"><span class="accent">role</span>: <span class="value">"Full Stack Developer"</span></span>
-            <span class="hero-code-line"><span class="accent">main_stack</span>: <span class="value">"Java / Linux / SQL"</span></span>
+            <span class="hero-code-line"><span class="accent">main_stack</span>: <span class="value">"Java / SQL / Backend"</span></span>
             <span class="hero-code-line"><span class="accent">secondary</span>: <span class="value">"JavaScript, PHP, Spark, Angular"</span></span>
             <span class="hero-code-line"><span class="accent">focus</span>: <span class="value">"applications, plateformes et produits"</span></span>
             <div class="hero-side-card">
               <strong>Focus actuel</strong>
-              Java, Linux, architecture logicielle, data et produits techniques.
+              Java, architecture logicielle, data et produits techniques.
             </div>
           </div>
         </div>
@@ -71,9 +71,9 @@
     <section class="site-section">
       <div class="stats-strip reveal">
         <div class="stat-card"><div class="stat-value">4+</div><div class="stat-label">Années d'expérience</div></div>
-        <div class="stat-card"><div class="stat-value">Linux</div><div class="stat-label">Environnement clé</div></div>
         <div class="stat-card"><div class="stat-value">10+</div><div class="stat-label">Projets présentés</div></div>
         <div class="stat-card"><div class="stat-value">3 ans</div><div class="stat-label">Maintenance AlternativeAPI</div></div>
+        <div class="stat-card"><div class="stat-value">2</div><div class="stat-label">Diplômes ESGI</div></div>
       </div>
     </section>
 
@@ -82,9 +82,9 @@
         <div>
           <div class="section-tag">Profil</div>
           <h2>Un profil polyvalent, avec un ancrage fort côté logiciel.</h2>
-          <p class="section-lead">Je m'appelle Bastien Leuwers. Mon parcours m'a mené du BTS SIO vers un Bachelor Intelligence Artificielle et Big Data, puis un Master Architecture des Logiciels à l'ESGI. Aujourd'hui, j'évolue sur des sujets Java, Linux, data et produits applicatifs, avec plus de 4 ans d'expérience entre alternance et entreprise.</p>
+          <p class="section-lead">Je m'appelle Bastien Leuwers. Mon parcours m'a mené du BTS SIO vers un Bachelor Intelligence Artificielle et Big Data, puis un Master Architecture des Logiciels à l'ESGI. Aujourd'hui, j'évolue sur des sujets Java, data et produits applicatifs, avec plus de 4 ans d'expérience entre alternance et entreprise.</p>
           <ul class="check-list">
-            <li>Développeur Full Stack à dominante Java, avec Linux très présent au quotidien.</li>
+            <li>Développeur Full Stack à dominante Java.</li>
             <li>Expérience en logiciel, data, applications et produits web.</li>
             <li>Parcours structuré autour de l'ESGI et de l'ingénierie logicielle.</li>
           </ul>
@@ -97,7 +97,7 @@
           <img src="img/bastien-cv.jpg" alt="Portrait de Bastien Leuwers">
           <div>
             <h3>Bastien Leuwers</h3>
-            <p>Full Stack, avec un cœur de compétence sur Java, Linux, les applications métier et les produits techniques, et plus de 4 ans d'expérience accumulée depuis 2021.</p>
+            <p>Full Stack, avec un cœur de compétence sur Java, les applications métier et les produits techniques, et plus de 4 ans d'expérience accumulée depuis 2021.</p>
             <div class="project-meta">
               <span class="project-badge project-badge-accent">Java</span>
               <span class="project-badge">SQL</span>
@@ -124,7 +124,7 @@
         <article class="feature-card-modern">
           <div class="card-icon"><i class="fas fa-briefcase"></i></div>
           <h3>Expériences</h3>
-          <p>SII, Thales et G2S, avec des sujets autour de Java, Linux, Spark et du développement d'applications.</p>
+          <p>SII, Thales et G2S, avec des sujets autour de Java, Spark et du développement d'applications.</p>
           <a class="btn btn-secondary" href="experiences.php">Voir les expériences</a>
         </article>
         <article class="feature-card-modern">

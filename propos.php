@@ -39,7 +39,7 @@
       <div class="page-heading">
         <div class="hero-badge"><i class="fas fa-user"></i> Profil</div>
         <h1>Développeur Full Stack à dominante Java.</h1>
-        <span class="subheading">Je travaille principalement sur des sujets logiciel, Java, Linux, data et applications, avec plus de 4 ans d'expérience entre alternance et entreprise.</span>
+        <span class="subheading">Je travaille principalement sur des sujets logiciel, Java, data et applications, avec plus de 4 ans d'expérience entre alternance et entreprise.</span>
       </div>
     </div>
   </header>
@@ -50,7 +50,7 @@
         <div>
           <div class="section-tag">Présentation</div>
           <h2>Bastien Leuwers</h2>
-          <p class="section-lead">Développeur Full Stack, aujourd'hui davantage orienté logiciel, Java, Linux, data et applications que simple développement web. Mon parcours m'a amené du BTS SIO vers un Bachelor Intelligence Artificielle et Big Data, puis vers un Master Architecture des Logiciels, en parallèle d'expériences en alternance et en entreprise.</p>
+          <p class="section-lead">Développeur Full Stack, aujourd'hui davantage orienté logiciel, Java, data et applications que simple développement web. Mon parcours m'a amené du BTS SIO vers un Bachelor Intelligence Artificielle et Big Data, puis vers un Master Architecture des Logiciels, en parallèle d'expériences en alternance et en entreprise.</p>
           <div class="project-meta">
             <span class="project-badge project-badge-accent">Java</span>
             <span class="project-badge">SQL</span>
@@ -64,7 +64,7 @@
           <img src="img/bastien-cv.jpg" alt="Portrait de Bastien Leuwers">
           <div>
             <h3>Aujourd'hui</h3>
-            <p>Full Stack, avec un cœur de compétence sur Java, l'architecture logicielle, les environnements Linux et les applications métier.</p>
+            <p>Full Stack, avec un cœur de compétence sur Java, l'architecture logicielle et les applications métier.</p>
             <div class="hero-actions">
               <a class="btn btn-primary" href="cv/CV_Bastien_Leuwers.pdf" target="_blank" rel="noopener">Ouvrir le CV</a>
               <a class="btn btn-secondary" href="experiences.php">Voir mes expériences</a>
