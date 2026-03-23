@@ -1,8 +1,8 @@
 ﻿<?php
 require_once __DIR__ . '/includes/layout.php';
 portfolio_render_start([
-    'title' => 'Site Noel | Bastien Leuwers',
-    'description' => 'Projet Site Noel.',
+    'title' => 'Site Noël | Bastien Leuwers',
+    'description' => 'Projet Site Noël.',
     'active' => 'projects',
 ]);
 ?>
@@ -15,15 +15,15 @@ portfolio_render_start([
           <div class="site-heading">
 			  <!-- particles.js container -->
 <!-- scripts -->
-            <h1>Site NoÃ«l</h1>
-            <span class="subheading">Une prÃ©sentation pas comme les autres...</span>
+            <h1>Site Noël</h1>
+            <span class="subheading">Une présentation pas comme les autres...</span>
           </div>
         </div>
       </div>
     </div>
   </header>
 	  <div class="col-lg-8 col-md-10 mx-auto">
-	          <p>Ceci est notre premier projet. L'objectif Ã©tait de rÃ©aliser un site "vitrine" Ã  travers lequel nous devions prÃ©senter la chose que l'on souhaiterait avoir pour noÃ«l. Ce projet Ã©tait notre premier vrai projet de BTS et nous devions le rÃ©aliser en binÃ´me.</p>
+	          <p>Ceci est notre premier projet. L'objectif était de réaliser un site vitrine à travers lequel nous devions présenter la chose que nous souhaiterions avoir pour Noël. C'était notre premier vrai projet de BTS, réalisé en binôme.</p>
 	  </div>
 	  <br/><br/>
 	
@@ -40,7 +40,7 @@ portfolio_render_start([
       </div>
       <div class="col-md-4">
 		<img src="img/noel3.jpg" height="300px" width="300px">
-		 <p>Page des avantages et inconvÃ©nients</p>
+		 <p>Page des avantages et inconvénients</p>
       </div>
     </div>
 	 <hr>

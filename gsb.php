@@ -22,7 +22,7 @@ portfolio_render_start([
     </div>
   </header>
 	  <div class="col-lg-8 col-md-10 mx-auto">
-	          <p>Ce projet Ã©tait notre premier projet de notre 2Ã¨me annÃ©e. A travers ce projet nous devions dÃ©couvrir le fonctionnement MVC. Nous devions reprendre une application web dÃ©jÃ  existante et l'amÃ©liorer afin de rÃ©pondre Ã  un cahier des charges.</p>
+	          <p>Ce projet était notre premier projet de notre 2ème année. À travers ce projet, nous devions découvrir le fonctionnement MVC. Nous devions reprendre une application web déjà existante et l'améliorer afin de répondre à un cahier des charges.</p>
 	  </div>
 	  <br/><br/>
 	

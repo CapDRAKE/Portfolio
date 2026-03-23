@@ -1,5 +1,6 @@
-﻿<?php
+<?php
 require_once __DIR__ . '/includes/layout.php';
+portfolio_redirect_to_app('contact');
 portfolio_render_start([
     'title' => 'Contact | Bastien Leuwers',
     'description' => 'Contact Bastien Leuwers.',

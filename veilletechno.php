@@ -1,5 +1,6 @@
-﻿<?php
+<?php
 require_once __DIR__ . '/includes/layout.php';
+portfolio_redirect_to_app('home');
 portfolio_render_start([
     'title' => 'Veille techno | Bastien Leuwers',
     'description' => 'Veille technologique de Bastien Leuwers.',

@@ -1,8 +1,8 @@
 ﻿<?php
 require_once __DIR__ . '/includes/layout.php';
 portfolio_render_start([
-    'title' => 'GSB gestion des conferences | Bastien Leuwers',
-    'description' => 'Projet GSB gestion des conferences.',
+    'title' => 'GSB gestion des conférences | Bastien Leuwers',
+    'description' => 'Projet GSB gestion des conférences.',
     'active' => 'projects',
 ]);
 ?>
@@ -14,7 +14,7 @@ portfolio_render_start([
         <div class="col-lg-8 col-md-10 mx-auto">
           <div class="site-heading">
 			  <!-- scripts -->
-            <h1>GSB gestion des confÃ©rences</h1>
+            <h1>GSB gestion des conférences</h1>
             <span class="subheading">Projet CodeIgniter</span>
           </div>
         </div>
@@ -22,7 +22,7 @@ portfolio_render_start([
     </div>
   </header>
 	  <div class="col-lg-8 col-md-10 mx-auto">
-	          <p>Ce projet Ã©tait notre dernier projet de notre seconde annÃ©e. Ce projet Ã©tait un projet web que nous devions rÃ©aliser durant notre stage. Nous devions utilise une base de donnÃ©es que nous avions crÃ©Ã© au prÃ©alable. Nous avions une application Java pour nous aider. Cette application web devait Ãªtre crÃ©Ã©e Ã  l'aide du framework CodeIgniter. Cette application devait permettre la gestion des confÃ©rences, l'inscription, et la consultation des statistiques en fonction de l'utilisateur.</p>
+	          <p>Ce projet était notre dernier projet de notre seconde année. C'était un projet web à réaliser durant notre stage. Nous devions utiliser une base de données créée au préalable, avec une application Java comme support. Cette application web devait être créée avec le framework CodeIgniter et permettre la gestion des conférences, l'inscription et la consultation de statistiques en fonction de l'utilisateur.</p>
 	  </div>
 	  <br/><br/>
 	
@@ -35,11 +35,11 @@ portfolio_render_start([
       </div>
       <div class="col-md-4">
 		<img src="img/affich.png" height="300px" width="300px">
-        <p>Page d'affichage des confÃ©rences</p>
+        <p>Page d'affichage des conférences</p>
       </div>
       <div class="col-md-4">
 		<img src="img/inscription.png" height="300px" width="300px">
-        <p>Inscription Ã  une confÃ©rence</p>
+        <p>Inscription à une conférence</p>
       </div>
     </div>
 		 <hr>

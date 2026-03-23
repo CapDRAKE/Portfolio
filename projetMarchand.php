@@ -16,14 +16,14 @@ portfolio_render_start([
 			  <!-- particles.js container -->
 <!-- scripts -->
             <h1>Site marchand</h1>
-            <span class="subheading">Projet avec utilisation de bases de donnÃ©es MySQL</span>
+            <span class="subheading">Projet avec utilisation de bases de données MySQL</span>
           </div>
         </div>
       </div>
     </div>
   </header>
 	  	  <div class="col-lg-8 col-md-10 mx-auto">
-	          <p>Ceci est notre deuxiÃ¨me projet. C'est probablement le projet sut lequel nous avons passÃ© le plus de temps. Nous l'avions commencÃ© en janvier/fÃ©vrier 2020 et l'avons terminÃ© en septembre 2020. Ce projet, qu'est un site marchand, s'est divisÃ© en plusieurs Ã©tapes : tout d'abord, un site vitrine. Par la suite, nous devions rÃ©aliser la liaison avec une base de donnÃ©es que nous devions crÃ©er. Enfin, nous devions effectuer certaines modifications, comme faire le panier en variable de session etc...</p>
+	          <p>Ceci est notre deuxième projet. C'est probablement celui sur lequel nous avons passé le plus de temps. Nous l'avons commencé en janvier-février 2020 et terminé en septembre 2020. Ce site marchand s'est découpé en plusieurs étapes : d'abord un site vitrine, puis la liaison avec une base de données que nous devions créer, avant d'ajouter des évolutions comme le panier en variable de session.</p>
 	  </div>
 	  <br/><br/>
 	

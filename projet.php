@@ -1,5 +1,6 @@
-﻿<?php
+<?php
 require_once __DIR__ . '/includes/layout.php';
+portfolio_redirect_to_app('projects');
 portfolio_render_start([
     'title' => 'Mes projets | Bastien Leuwers',
     'description' => 'Projets de Bastien Leuwers, entre produits personnels, Java, web et projets de BTS.',

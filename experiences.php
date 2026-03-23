@@ -1,5 +1,6 @@
-﻿<?php
+<?php
 require_once __DIR__ . '/includes/layout.php';
+portfolio_redirect_to_app('experience');
 portfolio_render_start([
     'title' => 'Experiences | Bastien Leuwers',
     'description' => 'Experiences professionnelles de Bastien Leuwers.',

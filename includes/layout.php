@@ -1,4 +1,4 @@
-<?php
+﻿<?php
 declare(strict_types=1);
 
 if (!function_exists('portfolio_escape')) {
@@ -13,10 +13,10 @@ if (!function_exists('portfolio_navigation_items')) {
     {
         return [
             ['key' => 'home', 'href' => 'index.php', 'label' => 'Accueil'],
-            ['key' => 'about', 'href' => 'propos.php', 'label' => 'À propos'],
-            ['key' => 'projects', 'href' => 'projet.php', 'label' => 'Mes projets'],
-            ['key' => 'experience', 'href' => 'experiences.php', 'label' => 'Expériences'],
-            ['key' => 'contact', 'href' => 'contact.php', 'label' => 'Contact'],
+            ['key' => 'about', 'href' => 'index.php?view=about', 'label' => 'À propos'],
+            ['key' => 'projects', 'href' => 'index.php?view=projects', 'label' => 'Mes projets'],
+            ['key' => 'experience', 'href' => 'index.php?view=experience', 'label' => 'Expériences'],
+            ['key' => 'contact', 'href' => 'index.php?view=contact', 'label' => 'Contact'],
         ];
     }
 }
@@ -82,6 +82,26 @@ if (!function_exists('portfolio_render_start')) {
     }
 }
 
+if (!function_exists('portfolio_is_app_request')) {
+    function portfolio_is_app_request(): bool
+    {
+        return strtolower((string) ($_SERVER['HTTP_X_REQUESTED_WITH'] ?? '')) === 'portfolio-app';
+    }
+}
+
+if (!function_exists('portfolio_redirect_to_app')) {
+    function portfolio_redirect_to_app(string $route): void
+    {
+        if (portfolio_is_app_request()) {
+            return;
+        }
+
+        $target = $route === 'home' ? 'index.php' : 'index.php?view=' . rawurlencode($route);
+        header('Location: ' . $target, true, 302);
+        exit;
+    }
+}
+
 if (!function_exists('portfolio_render_end')) {
     function portfolio_render_end(array $options = []): void
     {
@@ -118,3 +138,4 @@ if (!function_exists('portfolio_render_end')) {
 <?php
     }
 }
+

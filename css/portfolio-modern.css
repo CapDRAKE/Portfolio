@@ -1274,6 +1274,65 @@ footer a:focus .fa-circle {
   text-decoration: none;
 }
 
+.portfolio-app-shell #app-root {
+  min-height: 100vh;
+}
+
+.app-view-shell {
+  position: relative;
+  transition: opacity 0.28s ease, transform 0.28s ease;
+}
+
+.app-view-shell.is-switching {
+  opacity: 0.72;
+  transform: translateY(8px);
+}
+
+.app-view-loader {
+  position: fixed;
+  inset: 0;
+  z-index: -1;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.22s ease;
+}
+
+.app-view-shell.is-switching .app-view-loader {
+  z-index: 30;
+  opacity: 1;
+}
+
+.app-view-loader-card {
+  position: absolute;
+  top: 120px;
+  right: 32px;
+  max-width: 320px;
+  padding: 1rem 1.1rem;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: var(--radius);
+  background: rgba(17, 17, 17, 0.82);
+  box-shadow: var(--shadow-sm);
+}
+
+.app-view-shell main {
+  animation: app-route-fade 0.34s ease;
+}
+
+.app-view-shell header.masthead {
+  animation: app-route-fade 0.34s ease;
+}
+
+@keyframes app-route-fade {
+  from {
+    opacity: 0;
+    transform: translateY(12px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
 .reveal {
   opacity: 0;
   transform: translateY(24px);

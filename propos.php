@@ -1,5 +1,6 @@
-﻿<?php
+<?php
 require_once __DIR__ . '/includes/layout.php';
+portfolio_redirect_to_app('about');
 portfolio_render_start([
     'title' => 'A propos | Bastien Leuwers',
     'description' => 'Presentation de Bastien Leuwers, developpeur Full Stack a dominante Java.',
