@@ -110,6 +110,11 @@
               </a>
             </li>
           </ul>
+          <p class="footer-links">
+            <a href="https://majestychallenge.fr/" target="_blank" rel="noopener">MajestyChallenge</a>
+            <a href="https://majestylauncher.com/" target="_blank" rel="noopener">MajestyLauncher</a>
+            <a href="https://majestycraft.com/" target="_blank" rel="noopener">MajestyCraft</a>
+          </p>
           <p class="copyright text-muted">Copyright &copy; Mon portfolio 2020</p>
         </div>
       </div>

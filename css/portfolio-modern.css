@@ -1253,6 +1253,27 @@ footer a:focus .fa-circle {
   color: rgba(230, 57, 70, 0.34);
 }
 
+.footer-links {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 10px 16px;
+  margin: 1rem 0 0;
+}
+
+.footer-links a {
+  color: var(--text-3);
+  font-size: 0.85rem;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.footer-links a:hover,
+.footer-links a:focus {
+  color: var(--white);
+  text-decoration: none;
+}
+
 .reveal {
   opacity: 0;
   transform: translateY(24px);

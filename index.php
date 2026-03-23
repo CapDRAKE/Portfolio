@@ -240,6 +240,11 @@
           <ul class="list-inline text-center">
             <li class="list-inline-item"><a href="https://github.com/CapDRAKE"><span class="fa-stack fa-lg"><i class="fas fa-circle fa-stack-2x"></i><i class="fab fa-github fa-stack-1x fa-inverse"></i></span></a></li>
           </ul>
+          <p class="footer-links">
+            <a href="https://majestychallenge.fr/" target="_blank" rel="noopener">MajestyChallenge</a>
+            <a href="https://majestylauncher.com/" target="_blank" rel="noopener">MajestyLauncher</a>
+            <a href="https://majestycraft.com/" target="_blank" rel="noopener">MajestyCraft</a>
+          </p>
           <p class="copyright text-muted">Copyright &copy; Portfolio Bastien Leuwers 2026</p>
         </div>
       </div>
