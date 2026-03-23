@@ -1602,6 +1602,7 @@ footer a:focus .fa-circle {
   border: 1px solid rgba(255, 255, 255, 0.08);
   background: rgba(255, 255, 255, 0.03);
   box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.04);
+  overflow: hidden;
 }
 
 .company-logo-chip.company-logo-chip-sii {
@@ -1619,19 +1620,23 @@ footer a:focus .fa-circle {
   max-width: 200px;
   max-height: 62px;
   object-fit: contain;
+  object-position: center;
   border: 0;
   border-radius: 0;
   box-shadow: none;
+  transform-origin: center;
 }
 
 .company-logo.company-logo-sii {
   max-width: 118px;
   max-height: 62px;
+  transform: scale(2.05);
 }
 
 .company-logo.company-logo-thales {
   max-width: 228px;
   max-height: 72px;
+  transform: scale(1.78) translateY(4px);
 }
 
 .company-logo.company-logo-g2s {
@@ -1844,11 +1849,13 @@ body > .container > .row > .col-4 h2 {
 
   .company-logo.company-logo-sii {
     max-width: 104px;
+    transform: scale(1.95);
   }
 
   .company-logo.company-logo-thales {
     max-width: 206px;
     max-height: 64px;
+    transform: scale(1.68) translateY(3px);
   }
 
   .company-logo.company-logo-g2s {
