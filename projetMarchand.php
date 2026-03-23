@@ -56,7 +56,7 @@
   </nav>
 
   <!-- Page Header -->
-  <header class="masthead" style="background-image: url('img/projet.jpg')">
+  <header class="masthead" style="background-image: url('img/header-detail-modern.svg')">
     <div class="overlay"></div>
 	  	<div id="particles-js" >
     <div class="container">

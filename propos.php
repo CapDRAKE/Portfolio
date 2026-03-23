@@ -33,7 +33,7 @@
     </div>
   </nav>
 
-  <header class="masthead" style="background-image: url('img/propos.jpg')">
+  <header class="masthead" style="background-image: url('img/header-profile-modern.svg')">
     <div class="overlay"></div>
     <div class="container">
       <div class="page-heading">

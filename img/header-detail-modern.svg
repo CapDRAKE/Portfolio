@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">Header detail moderne</title>
+  <desc id="desc">Fond abstrait sobre pour les pages secondaires de projet.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#08080b"/>
+      <stop offset="56%" stop-color="#140c12"/>
+      <stop offset="100%" stop-color="#06070a"/>
+    </linearGradient>
+    <radialGradient id="warm" cx="18%" cy="20%" r="54%">
+      <stop offset="0%" stop-color="#ff7b22" stop-opacity="0.32"/>
+      <stop offset="100%" stop-color="#ff7b22" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="gold" cx="90%" cy="68%" r="56%">
+      <stop offset="0%" stop-color="#ffb703" stop-opacity="0.22"/>
+      <stop offset="100%" stop-color="#ffb703" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1600" height="900" fill="url(#bg)"/>
+  <rect width="1600" height="900" fill="url(#warm)"/>
+  <rect width="1600" height="900" fill="url(#gold)"/>
+  <g opacity="0.08" stroke="#ffffff">
+    <path d="M0 180h1600"/>
+    <path d="M0 360h1600"/>
+    <path d="M0 540h1600"/>
+    <path d="M0 720h1600"/>
+    <path d="M230 0v900"/>
+    <path d="M510 0v900"/>
+    <path d="M790 0v900"/>
+    <path d="M1070 0v900"/>
+    <path d="M1350 0v900"/>
+  </g>
+  <g transform="translate(818 176)">
+    <rect width="516" height="336" rx="34" fill="#151820" stroke="#ffffff" stroke-opacity="0.1"/>
+    <rect x="34" y="34" width="448" height="108" rx="24" fill="#11161d"/>
+    <rect x="34" y="176" width="208" height="124" rx="24" fill="#11141a"/>
+    <rect x="274" y="176" width="208" height="124" rx="24" fill="#11141a"/>
+    <rect x="62" y="62" width="110" height="14" rx="7" fill="#ff8b94" opacity="0.72"/>
+    <rect x="62" y="90" width="202" height="14" rx="7" fill="#ffffff" opacity="0.18"/>
+    <rect x="62" y="204" width="84" height="14" rx="7" fill="#ffffff" opacity="0.2"/>
+    <rect x="62" y="232" width="122" height="14" rx="7" fill="#ffb703" opacity="0.24"/>
+    <rect x="302" y="204" width="96" height="14" rx="7" fill="#ffffff" opacity="0.2"/>
+    <rect x="302" y="232" width="88" height="14" rx="7" fill="#17c7ff" opacity="0.28"/>
+  </g>
+</svg>

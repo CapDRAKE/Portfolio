@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">Header contact moderne</title>
+  <desc id="desc">Fond abstrait sombre avec carte de message et liaisons lumineuses.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#09080b"/>
+      <stop offset="54%" stop-color="#150d14"/>
+      <stop offset="100%" stop-color="#060b11"/>
+    </linearGradient>
+    <radialGradient id="warm" cx="22%" cy="16%" r="54%">
+      <stop offset="0%" stop-color="#ff7b22" stop-opacity="0.34"/>
+      <stop offset="100%" stop-color="#ff7b22" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="cool" cx="82%" cy="18%" r="48%">
+      <stop offset="0%" stop-color="#17c7ff" stop-opacity="0.24"/>
+      <stop offset="100%" stop-color="#17c7ff" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1600" height="900" fill="url(#bg)"/>
+  <rect width="1600" height="900" fill="url(#warm)"/>
+  <rect width="1600" height="900" fill="url(#cool)"/>
+  <g opacity="0.08" stroke="#ffffff">
+    <path d="M0 180h1600"/>
+    <path d="M0 360h1600"/>
+    <path d="M0 540h1600"/>
+    <path d="M0 720h1600"/>
+    <path d="M210 0v900"/>
+    <path d="M500 0v900"/>
+    <path d="M790 0v900"/>
+    <path d="M1080 0v900"/>
+    <path d="M1370 0v900"/>
+  </g>
+  <g transform="translate(830 176)">
+    <rect width="488" height="340" rx="34" fill="#151820" stroke="#ffffff" stroke-opacity="0.1"/>
+    <rect x="34" y="34" width="420" height="272" rx="28" fill="#10151c"/>
+    <path d="M86 108l158 116 158-116" fill="none" stroke="#ff8b94" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+    <rect x="86" y="92" width="316" height="176" rx="26" fill="none" stroke="#ffffff" stroke-opacity="0.12" stroke-width="3"/>
+  </g>
+  <g stroke="#17c7ff" stroke-opacity="0.42" stroke-width="3" fill="none">
+    <path d="M932 248c-170-44-278 20-340 144"/>
+    <path d="M1330 312c90 46 126 122 114 220"/>
+    <path d="M842 472c-126 42-192 118-212 222"/>
+  </g>
+  <g>
+    <circle cx="590" cy="394" r="16" fill="#ffb703"/>
+    <circle cx="1450" cy="538" r="14" fill="#17c7ff"/>
+    <circle cx="616" cy="718" r="14" fill="#ff5c61"/>
+  </g>
+  <g transform="translate(1058 592)">
+    <rect width="238" height="126" rx="24" fill="#11151c" stroke="#ffffff" stroke-opacity="0.08"/>
+    <rect x="24" y="28" width="70" height="12" rx="6" fill="#ffffff" opacity="0.24"/>
+    <rect x="24" y="54" width="124" height="12" rx="6" fill="#ffffff" opacity="0.16"/>
+    <rect x="24" y="84" width="102" height="12" rx="6" fill="#ffb703" opacity="0.28"/>
+  </g>
+</svg>

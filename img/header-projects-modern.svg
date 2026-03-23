@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">Header projets moderne</title>
+  <desc id="desc">Fond abstrait avec cartes de projet et accents lumineux.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#09070a"/>
+      <stop offset="60%" stop-color="#150b11"/>
+      <stop offset="100%" stop-color="#060608"/>
+    </linearGradient>
+    <radialGradient id="a" cx="20%" cy="15%" r="50%">
+      <stop offset="0%" stop-color="#ff5c61" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#ff5c61" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="b" cx="82%" cy="72%" r="55%">
+      <stop offset="0%" stop-color="#ffb703" stop-opacity="0.24"/>
+      <stop offset="100%" stop-color="#ffb703" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1600" height="900" fill="url(#bg)"/>
+  <rect width="1600" height="900" fill="url(#a)"/>
+  <rect width="1600" height="900" fill="url(#b)"/>
+  <g opacity="0.08" stroke="#ffffff">
+    <path d="M0 190h1600"/>
+    <path d="M0 390h1600"/>
+    <path d="M0 590h1600"/>
+    <path d="M0 790h1600"/>
+    <path d="M250 0v900"/>
+    <path d="M540 0v900"/>
+    <path d="M830 0v900"/>
+    <path d="M1120 0v900"/>
+    <path d="M1410 0v900"/>
+  </g>
+  <g transform="translate(760 170)">
+    <rect width="260" height="312" rx="30" fill="#15171e" stroke="#ffffff" stroke-opacity="0.1"/>
+    <rect x="24" y="24" width="212" height="126" rx="22" fill="#1f2430"/>
+    <rect x="40" y="44" width="72" height="18" rx="9" fill="#ff8b94"/>
+    <rect x="24" y="178" width="112" height="24" rx="12" fill="#ffb703" opacity="0.25"/>
+    <rect x="24" y="220" width="184" height="16" rx="8" fill="#ffffff" opacity="0.2"/>
+    <rect x="24" y="252" width="156" height="16" rx="8" fill="#ffffff" opacity="0.14"/>
+  </g>
+  <g transform="translate(1060 130)">
+    <rect width="286" height="352" rx="32" fill="#12151b" stroke="#ffffff" stroke-opacity="0.1"/>
+    <rect x="26" y="26" width="234" height="144" rx="24" fill="#1a202a"/>
+    <path d="M58 136c52-62 102-94 150-94 30 0 60 16 94 44" fill="none" stroke="#17c7ff" stroke-width="7" stroke-linecap="round" opacity="0.75"/>
+    <rect x="26" y="202" width="128" height="24" rx="12" fill="#ff5c61" opacity="0.28"/>
+    <rect x="26" y="244" width="192" height="16" rx="8" fill="#ffffff" opacity="0.2"/>
+    <rect x="26" y="276" width="164" height="16" rx="8" fill="#ffffff" opacity="0.14"/>
+    <rect x="26" y="308" width="120" height="16" rx="8" fill="#ffb703" opacity="0.26"/>
+  </g>
+  <g transform="translate(860 540)">
+    <rect width="210" height="142" rx="26" fill="#11141a" stroke="#ffffff" stroke-opacity="0.08"/>
+    <rect x="24" y="24" width="62" height="62" rx="18" fill="#ff7b22" opacity="0.2"/>
+    <rect x="106" y="32" width="74" height="12" rx="6" fill="#ffffff" opacity="0.24"/>
+    <rect x="106" y="56" width="56" height="12" rx="6" fill="#ffffff" opacity="0.15"/>
+    <rect x="24" y="104" width="122" height="12" rx="6" fill="#17c7ff" opacity="0.28"/>
+  </g>
+  <g transform="translate(1110 544)">
+    <rect width="250" height="164" rx="28" fill="#101318" stroke="#ffffff" stroke-opacity="0.08"/>
+    <rect x="26" y="28" width="88" height="18" rx="9" fill="#ff8b94" opacity="0.74"/>
+    <rect x="26" y="64" width="168" height="14" rx="7" fill="#ffffff" opacity="0.16"/>
+    <rect x="26" y="92" width="188" height="14" rx="7" fill="#ffffff" opacity="0.14"/>
+    <rect x="26" y="126" width="104" height="14" rx="7" fill="#ffb703" opacity="0.24"/>
+  </g>
+</svg>

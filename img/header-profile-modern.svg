@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">Header profil moderne</title>
+  <desc id="desc">Fond abstrait pour une page profil avec cartes et cercles lumineux.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#09080c"/>
+      <stop offset="55%" stop-color="#140d15"/>
+      <stop offset="100%" stop-color="#071016"/>
+    </linearGradient>
+    <radialGradient id="warm" cx="16%" cy="22%" r="50%">
+      <stop offset="0%" stop-color="#ff7b22" stop-opacity="0.38"/>
+      <stop offset="100%" stop-color="#ff7b22" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="cool" cx="88%" cy="24%" r="48%">
+      <stop offset="0%" stop-color="#14d9ff" stop-opacity="0.22"/>
+      <stop offset="100%" stop-color="#14d9ff" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="panel" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#171922" stop-opacity="0.92"/>
+      <stop offset="100%" stop-color="#0d1117" stop-opacity="0.84"/>
+    </linearGradient>
+  </defs>
+  <rect width="1600" height="900" fill="url(#bg)"/>
+  <rect width="1600" height="900" fill="url(#warm)"/>
+  <rect width="1600" height="900" fill="url(#cool)"/>
+  <g opacity="0.08" stroke="#ffffff">
+    <path d="M0 180h1600"/>
+    <path d="M0 360h1600"/>
+    <path d="M0 540h1600"/>
+    <path d="M0 720h1600"/>
+    <path d="M200 0v900"/>
+    <path d="M500 0v900"/>
+    <path d="M800 0v900"/>
+    <path d="M1100 0v900"/>
+    <path d="M1400 0v900"/>
+  </g>
+  <g transform="translate(930 126)">
+    <circle cx="218" cy="218" r="186" fill="none" stroke="#ffb703" stroke-opacity="0.28" stroke-width="2"/>
+    <circle cx="218" cy="218" r="142" fill="none" stroke="#ffffff" stroke-opacity="0.08" stroke-width="2"/>
+    <circle cx="218" cy="218" r="98" fill="#ffffff" opacity="0.04"/>
+    <circle cx="218" cy="192" r="50" fill="#ff8b94" opacity="0.2"/>
+    <path d="M140 300c0-50 34-88 78-88s78 38 78 88" fill="#17c7ff" opacity="0.16"/>
+  </g>
+  <g transform="translate(770 180)">
+    <rect width="390" height="490" rx="34" fill="url(#panel)" stroke="#ffffff" stroke-opacity="0.1"/>
+    <rect x="44" y="42" width="132" height="132" rx="26" fill="#12151d"/>
+    <circle cx="110" cy="92" r="34" fill="#ff7b22" opacity="0.22"/>
+    <rect x="208" y="58" width="132" height="18" rx="9" fill="#ffffff" opacity="0.24"/>
+    <rect x="208" y="92" width="100" height="14" rx="7" fill="#ff8b94" opacity="0.68"/>
+    <rect x="44" y="216" width="302" height="14" rx="7" fill="#ffffff" opacity="0.18"/>
+    <rect x="44" y="248" width="268" height="14" rx="7" fill="#ffffff" opacity="0.14"/>
+    <rect x="44" y="280" width="222" height="14" rx="7" fill="#17c7ff" opacity="0.28"/>
+    <rect x="44" y="340" width="126" height="44" rx="16" fill="#1a1e27"/>
+    <rect x="188" y="340" width="158" height="44" rx="16" fill="#1a1e27"/>
+    <rect x="44" y="410" width="302" height="34" rx="17" fill="#13171f"/>
+    <rect x="58" y="421" width="78" height="12" rx="6" fill="#ffb703" opacity="0.55"/>
+  </g>
+  <g transform="translate(1140 610)">
+    <rect width="220" height="118" rx="24" fill="#11151b" stroke="#ffffff" stroke-opacity="0.08"/>
+    <rect x="24" y="24" width="70" height="12" rx="6" fill="#ffffff" opacity="0.25"/>
+    <rect x="24" y="50" width="126" height="12" rx="6" fill="#ffffff" opacity="0.16"/>
+    <rect x="24" y="80" width="88" height="12" rx="6" fill="#17c7ff" opacity="0.3"/>
+  </g>
+</svg>

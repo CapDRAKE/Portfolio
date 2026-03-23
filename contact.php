@@ -33,7 +33,7 @@
     </div>
   </nav>
 
-  <header class="masthead" style="background-image: url('img/contact.jpg')">
+  <header class="masthead" style="background-image: url('img/header-contact-modern.svg')">
     <div class="overlay"></div>
     <div class="container">
       <div class="page-heading">

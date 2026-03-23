@@ -33,13 +33,13 @@
     </div>
   </nav>
 
-  <header class="masthead" style="background-image: url('img/home.jpg')">
+  <header class="masthead" style="background-image: url('img/header-home-modern.svg')">
     <div class="overlay"></div>
     <div class="container">
       <div class="home-hero-grid">
         <div class="hero-copy site-heading">
           <div class="hero-badge"><i class="fas fa-layer-group"></i> Développeur Full Stack</div>
-          <h1>Applications, produits et plateformes.</h1>
+          <h1>Développeur Full Stack orienté logiciel et produits.</h1>
           <span class="subheading">Ingénieur logiciel chez SII en mission chez Thales, je cumule plus de 4 ans d'expérience entre alternance et entreprise sur des sujets Java, data, produits applicatifs et développement d'outils. En parallèle, je développe aussi des projets personnels autour de Minecraft, de l'IA et d'expériences pensées pour l'utilisateur.</span>
           <div class="hero-actions">
             <a class="btn btn-primary btn-xl" href="projet.php"><i class="fas fa-rocket"></i> Voir mes projets</a>

@@ -33,7 +33,7 @@
     </div>
   </nav>
 
-  <header class="masthead" style="background-image: url('img/veille.jpg')">
+  <header class="masthead" style="background-image: url('img/header-veille-modern.svg')">
     <div class="overlay"></div>
     <div class="container">
       <div class="page-heading">

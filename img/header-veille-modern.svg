@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">Header veille moderne</title>
+  <desc id="desc">Fond abstrait pour page de veille avec blocs et lignes de lecture.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#09080b"/>
+      <stop offset="58%" stop-color="#140c13"/>
+      <stop offset="100%" stop-color="#061018"/>
+    </linearGradient>
+    <radialGradient id="cool" cx="84%" cy="20%" r="50%">
+      <stop offset="0%" stop-color="#17c7ff" stop-opacity="0.24"/>
+      <stop offset="100%" stop-color="#17c7ff" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="warm" cx="18%" cy="18%" r="52%">
+      <stop offset="0%" stop-color="#ff7b22" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#ff7b22" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1600" height="900" fill="url(#bg)"/>
+  <rect width="1600" height="900" fill="url(#cool)"/>
+  <rect width="1600" height="900" fill="url(#warm)"/>
+  <g opacity="0.08" stroke="#ffffff">
+    <path d="M0 180h1600"/>
+    <path d="M0 360h1600"/>
+    <path d="M0 540h1600"/>
+    <path d="M0 720h1600"/>
+    <path d="M220 0v900"/>
+    <path d="M500 0v900"/>
+    <path d="M780 0v900"/>
+    <path d="M1060 0v900"/>
+    <path d="M1340 0v900"/>
+  </g>
+  <g transform="translate(840 170)">
+    <rect width="460" height="342" rx="34" fill="#131922" stroke="#ffffff" stroke-opacity="0.1"/>
+    <rect x="36" y="36" width="388" height="62" rx="18" fill="#10141a"/>
+    <rect x="36" y="124" width="388" height="164" rx="24" fill="#11161e"/>
+    <rect x="62" y="60" width="92" height="14" rx="7" fill="#ff8b94" opacity="0.72"/>
+    <rect x="62" y="154" width="256" height="12" rx="6" fill="#ffffff" opacity="0.2"/>
+    <rect x="62" y="182" width="210" height="12" rx="6" fill="#ffffff" opacity="0.16"/>
+    <rect x="62" y="210" width="180" height="12" rx="6" fill="#17c7ff" opacity="0.3"/>
+    <rect x="62" y="246" width="112" height="12" rx="6" fill="#ffb703" opacity="0.24"/>
+  </g>
+</svg>
