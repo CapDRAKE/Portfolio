@@ -37,7 +37,9 @@
 
 (function() {
   var loaderId = "site-loader";
+  var disclaimerId = "site-disclaimer";
   var hasHiddenLoader = false;
+  var hasShownDisclaimer = false;
 
   function mountLoader() {
     if (document.getElementById(loaderId)) {
@@ -48,13 +50,13 @@
     loader.id = loaderId;
     loader.innerHTML = [
       '<div class="site-loader-card">',
-      '  <div class="site-loader-eyebrow"><i class="fas fa-code-branch"></i> Mise a jour en cours</div>',
-      '  <div class="site-loader-title">Portfolio en evolution</div>',
-      '  <p class="site-loader-text">Ce site est encore en cours de developpement. Certaines sections peuvent evoluer pendant que je continue d\'ameliorer l\'experience.</p>',
+      '  <div class="site-loader-eyebrow"><i class="fas fa-bolt"></i></div>',
+      '  <div class="site-loader-title">Chargement du portfolio</div>',
+      '  <p class="site-loader-text">Initialisation de l\'interface et des contenus.</p>',
       '  <div class="site-loader-progress"></div>',
       '  <div class="site-loader-foot">',
       '    <span class="site-loader-spinner"></span>',
-      '    <span>Chargement de l\'interface</span>',
+      '    <span>Veuillez patienter quelques instants</span>',
       '  </div>',
       '</div>'
     ].join("");
@@ -65,6 +67,65 @@
     window.requestAnimationFrame(function() {
       loader.classList.add("is-visible");
     });
+  }
+
+  function mountDisclaimer() {
+    if (document.getElementById(disclaimerId)) {
+      return;
+    }
+
+    var disclaimer = document.createElement("div");
+    disclaimer.id = disclaimerId;
+    disclaimer.innerHTML = [
+      '<div class="site-disclaimer-card">',
+      '  <div class="site-disclaimer-icon"><i class="fas fa-tools"></i></div>',
+      '  <div class="site-disclaimer-text">',
+      '    <strong>Site en cours de developpement</strong>',
+      '    <span>Certaines pages, animations ou contenus peuvent encore evoluer pendant les prochaines mises a jour.</span>',
+      '  </div>',
+      '  <button type="button" class="site-disclaimer-close" aria-label="Fermer le message"><i class="fas fa-times"></i></button>',
+      '</div>'
+    ].join("");
+
+    document.body.appendChild(disclaimer);
+    disclaimer.querySelector(".site-disclaimer-close").addEventListener("click", function() {
+      hideDisclaimer(true);
+    });
+  }
+
+  function showDisclaimer() {
+    if (hasShownDisclaimer) {
+      return;
+    }
+
+    hasShownDisclaimer = true;
+    mountDisclaimer();
+
+    var disclaimer = document.getElementById(disclaimerId);
+    if (!disclaimer) {
+      return;
+    }
+
+    window.requestAnimationFrame(function() {
+      disclaimer.classList.add("is-visible");
+    });
+
+    window.setTimeout(function() {
+      hideDisclaimer(false);
+    }, 7000);
+  }
+
+  function hideDisclaimer(storeSeen) {
+    var disclaimer = document.getElementById(disclaimerId);
+    if (!disclaimer) {
+      return;
+    }
+
+    if (storeSeen && window.sessionStorage) {
+      window.sessionStorage.setItem("portfolio-dev-disclaimer-seen", "1");
+    }
+
+    disclaimer.classList.remove("is-visible");
   }
 
   function hideLoader() {
@@ -85,6 +146,9 @@
     window.setTimeout(function() {
       if (loader.parentNode) {
         loader.parentNode.removeChild(loader);
+      }
+      if (!(window.sessionStorage && window.sessionStorage.getItem("portfolio-dev-disclaimer-seen") === "1")) {
+        window.setTimeout(showDisclaimer, 180);
       }
     }, 420);
   }
@@ -128,11 +192,11 @@
   }
 
   if (document.readyState === "complete") {
-    window.setTimeout(hideLoader, 900);
+    window.setTimeout(hideLoader, 650);
   } else {
     window.addEventListener("load", function() {
-      window.setTimeout(hideLoader, 900);
+      window.setTimeout(hideLoader, 650);
     });
-    window.setTimeout(hideLoader, 2600);
+    window.setTimeout(hideLoader, 2200);
   }
 })();

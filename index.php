@@ -29,7 +29,7 @@
           <li class="nav-item"><a class="nav-link" href="propos.php">À propos</a></li>
           <li class="nav-item"><a class="nav-link" href="projet.php">Mes projets</a></li>
           <li class="nav-item"><a class="nav-link" href="veille.php">Veille</a></li>
-          <li class="nav-item"><a class="nav-link" href="stage.php">Stage</a></li>
+          <li class="nav-item"><a class="nav-link" href="experiences.php">Experiences</a></li>
           <li class="nav-item"><a class="nav-link" href="contact.php">Contact</a></li>
         </ul>
       </div>
@@ -43,7 +43,7 @@
         <div class="hero-copy site-heading">
           <div class="hero-badge"><i class="fas fa-layer-group"></i> Portfolio nouvelle version</div>
           <h1>Des projets concrets, une progression visible, une identité plus moderne.</h1>
-          <span class="subheading">Étudiant en informatique puis développeur en construction, j'ai conçu ce portfolio pour montrer mon parcours, mes réalisations et la manière dont j'aborde la création d'expériences web.</span>
+          <span class="subheading">Developpeur full-stack, j'ai concu ce portfolio pour montrer mon parcours, mes realisations, mes experiences et la facon dont j'aborde la creation d'experiences web.</span>
           <div class="hero-actions">
             <a class="btn btn-primary btn-xl" href="projet.php"><i class="fas fa-rocket"></i> Voir mes projets</a>
             <a class="btn btn-secondary btn-xl" href="propos.php"><i class="fas fa-user"></i> Découvrir mon profil</a>
@@ -74,7 +74,7 @@
     <section class="site-section">
       <div class="stats-strip reveal">
         <div class="stat-card">
-          <div class="stat-value">7+</div>
+          <div class="stat-value">10+</div>
           <div class="stat-label">Projets détaillés</div>
         </div>
         <div class="stat-card">
@@ -224,7 +224,7 @@
         </div>
         <div class="hero-actions">
           <a class="btn btn-primary" href="contact.php">Me contacter</a>
-          <a class="btn btn-secondary" href="stage.php">Voir mon stage</a>
+          <a class="btn btn-secondary" href="experiences.php">Voir mes experiences</a>
         </div>
       </div>
     </section>
@@ -271,3 +271,6 @@
   <script src="js/clean-blog.min.js"></script>
 </body>
 </html>
+
+
+

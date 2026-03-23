@@ -48,7 +48,7 @@
             <a class="nav-link" href="veille.php">Veille</a>
           </li>
 		  <li class="nav-item">
-            <a class="nav-link" href="stage.php">Stage</a>
+            <a class="nav-link" href="experiences.php">Experiences</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="contact.php">Contactez-moi</a>
@@ -68,8 +68,6 @@
           <div class="site-heading">
 			  <!-- particles.js container -->
 <!-- scripts -->
-<script src="particles.js-master/particles.js"></script>
-			  <script src="js/app.js"></script>
             <h1>Site NoÃ«l</h1>
             <span class="subheading">Une prÃ©sentation pas comme les autres...</span>
           </div>
@@ -165,4 +163,5 @@
 
 
 </html>
+
 

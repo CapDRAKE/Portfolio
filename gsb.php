@@ -48,7 +48,7 @@
             <a class="nav-link" href="veille.php">Veille</a>
           </li>
 		  <li class="nav-item">
-            <a class="nav-link" href="stage.php">Stage</a>
+            <a class="nav-link" href="experiences.php">Experiences</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="contact.php">Contactez-moi</a>
@@ -67,8 +67,6 @@
         <div class="col-lg-8 col-md-10 mx-auto">
           <div class="site-heading">
 			  <!-- scripts -->
-<script src="particles.js-master/particles.js"></script>
-			  <script src="js/app.js"></script>
             <h1>GSB gestion des frais</h1>
             <span class="subheading">Projet MVC</span>
           </div>
@@ -162,4 +160,5 @@
 
 
 </html>
+
 

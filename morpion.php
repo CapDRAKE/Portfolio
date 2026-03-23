@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="fr">
 
 <head>
@@ -48,7 +48,7 @@
             <a class="nav-link" href="veille.php">Veille</a>
           </li>
 		  <li class="nav-item">
-            <a class="nav-link" href="stage.php">Stage</a>
+            <a class="nav-link" href="experiences.php">Experiences</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="contact.php">Contactez-moi</a>
@@ -67,8 +67,6 @@
         <div class="col-lg-8 col-md-10 mx-auto">
           <div class="site-heading">
 			  <!-- scripts -->
-<script src="particles.js-master/particles.js"></script>
-			  <script src="js/app.js"></script>
             <h1>Projet java</h1>
             <span class="subheading">Un morpion en JAVA</span>
           </div>
@@ -77,7 +75,7 @@
     </div>
   </header>
 	  	  	  <div class="col-lg-8 col-md-10 mx-auto">
-	          <p>Ce projet était un projet à réaliser durant nos vacances. Nous devions réaliser le jeu de notre choix dans le langage Java</p>
+	          <p>Ce projet Ã©tait un projet Ã  rÃ©aliser durant nos vacances. Nous devions rÃ©aliser le jeu de notre choix dans le langage Java</p>
 	  </div>
 	  <br/><br/>
 	
@@ -98,7 +96,7 @@
         <p>Grille</p>
       </div>
     </div>
-	        <p><center><a class="btn btn-secondary" href="morpion/morpion.jar" download="Morpion" role="button">Télécharger &raquo;</a></center></p>
+	        <p><center><a class="btn btn-secondary" href="morpion/morpion.jar" download="Morpion" role="button">TÃ©lÃ©charger &raquo;</a></center></p>
   <hr>
 
   <footer>
@@ -148,3 +146,4 @@
 
 
 </html>
+

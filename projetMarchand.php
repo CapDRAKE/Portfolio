@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="fr">
 
 <head>
@@ -48,7 +48,7 @@
             <a class="nav-link" href="veille.php">Veille</a>
           </li>
 		  <li class="nav-item">
-            <a class="nav-link" href="stage.php">Stage</a>
+            <a class="nav-link" href="experiences.php">Experiences</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="contact.php">Contactez-moi</a>
@@ -68,17 +68,15 @@
           <div class="site-heading">
 			  <!-- particles.js container -->
 <!-- scripts -->
-<script src="particles.js-master/particles.js"></script>
-			  <script src="js/app.js"></script>
             <h1>Site marchand</h1>
-            <span class="subheading">Projet avec utilisation de bases de données MySQL</span>
+            <span class="subheading">Projet avec utilisation de bases de donnÃ©es MySQL</span>
           </div>
         </div>
       </div>
     </div>
   </header>
 	  	  <div class="col-lg-8 col-md-10 mx-auto">
-	          <p>Ceci est notre deuxième projet. C'est probablement le projet sut lequel nous avons passé le plus de temps. Nous l'avions commencé en janvier/février 2020 et l'avons terminé en septembre 2020. Ce projet, qu'est un site marchand, s'est divisé en plusieurs étapes : tout d'abord, un site vitrine. Par la suite, nous devions réaliser la liaison avec une base de données que nous devions créer. Enfin, nous devions effectuer certaines modifications, comme faire le panier en variable de session etc...</p>
+	          <p>Ceci est notre deuxiÃ¨me projet. C'est probablement le projet sut lequel nous avons passÃ© le plus de temps. Nous l'avions commencÃ© en janvier/fÃ©vrier 2020 et l'avons terminÃ© en septembre 2020. Ce projet, qu'est un site marchand, s'est divisÃ© en plusieurs Ã©tapes : tout d'abord, un site vitrine. Par la suite, nous devions rÃ©aliser la liaison avec une base de donnÃ©es que nous devions crÃ©er. Enfin, nous devions effectuer certaines modifications, comme faire le panier en variable de session etc...</p>
 	  </div>
 	  <br/><br/>
 	
@@ -164,3 +162,4 @@
 
 
 </html>
+
