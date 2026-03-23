@@ -1607,12 +1607,22 @@ footer a:focus .fa-circle {
 .company-logo {
   display: block;
   width: auto;
-  height: 32px;
-  max-width: 150px;
+  height: 36px;
+  max-width: 180px;
   object-fit: contain;
   border: 0;
   border-radius: 0;
   box-shadow: none;
+}
+
+.company-logo.company-logo-sii {
+  height: 46px;
+  max-width: 132px;
+}
+
+.company-logo.company-logo-thales {
+  height: 38px;
+  max-width: 190px;
 }
 
 .company-logo.company-logo-g2s {
@@ -1820,7 +1830,15 @@ body > .container > .row > .col-4 h2 {
   }
 
   .company-logo {
-    height: 28px;
+    height: 30px;
+  }
+
+  .company-logo.company-logo-sii {
+    height: 40px;
+  }
+
+  .company-logo.company-logo-thales {
+    height: 34px;
   }
 
   .company-logo.company-logo-g2s {

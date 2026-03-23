@@ -1,5 +1,12 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 260 84" role="img" aria-labelledby="title">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 620 180" role="img" aria-labelledby="title">
   <title id="title">Logo Thales</title>
-  <rect width="260" height="84" rx="20" fill="#ffffff"/>
-  <text x="130" y="53" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="36" font-weight="700" letter-spacing="3" fill="#1a3ea8">THALES</text>
+  <g fill="#2d2f85">
+    <path d="M34 42h104v24H98v90H74V66H34z"/>
+    <path d="M164 42h24v44h58V42h24v114h-24v-46h-58v46h-24z"/>
+    <path d="M318 156h-28l58-114h42l58 114h-28l-12-24h-78zm51-95-28 55h56z"/>
+    <path d="M488 42h24v90h86v24H488z"/>
+    <path d="M620 42h-104v114h104v-24h-80v-22h68V86h-68V66h80z"/>
+    <path d="M652 132c11 2 28 3 43 3 22 0 33-5 33-16 0-8-7-13-24-16l-18-3c-31-5-45-18-45-41 0-28 24-42 62-42 19 0 37 2 53 5l-3 22c-14-3-31-5-47-5-19 0-29 4-29 15 0 8 6 12 21 15l18 3c33 6 48 18 48 42 0 29-25 43-67 43-20 0-40-1-58-4z"/>
+  </g>
+  <circle cx="386" cy="122" r="13" fill="#63c3d9"/>
 </svg>

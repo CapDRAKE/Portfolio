@@ -53,10 +53,10 @@
           <article class="career-card">
             <div class="company-logo-strip">
               <span class="company-logo-chip">
-                <img class="company-logo" src="img/sii-logo.svg" alt="Logo SII">
+                <img class="company-logo company-logo-sii" src="img/sii-logo.svg" alt="Logo SII">
               </span>
               <span class="company-logo-chip">
-                <img class="company-logo" src="img/thales-logo.svg" alt="Logo Thales">
+                <img class="company-logo company-logo-thales" src="img/thales-logo.svg" alt="Logo Thales">
               </span>
             </div>
             <div class="meta">Depuis octobre 2024</div>
@@ -85,10 +85,10 @@
           <h2>SII / Thales</h2>
           <div class="company-logo-strip">
             <span class="company-logo-chip">
-              <img class="company-logo" src="img/sii-logo.svg" alt="Logo SII">
+              <img class="company-logo company-logo-sii" src="img/sii-logo.svg" alt="Logo SII">
             </span>
             <span class="company-logo-chip">
-              <img class="company-logo" src="img/thales-logo.svg" alt="Logo Thales">
+              <img class="company-logo company-logo-thales" src="img/thales-logo.svg" alt="Logo Thales">
             </span>
           </div>
           <p class="section-lead">Depuis octobre 2024, j'évolue comme ingénieur logiciel chez SII en mission chez Thales, avec un travail centré sur le développement Java dans un environnement Linux.</p>
