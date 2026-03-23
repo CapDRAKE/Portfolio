@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="fr">
 
 <head>
@@ -28,7 +28,7 @@
   <!-- Navigation -->
   <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
     <div class="container">
-      <a class="navbar-brand" href="index.html">Bastien LEUWERS</a>
+      <a class="navbar-brand" href="index.php">Bastien LEUWERS</a>
       <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
         Menu
         <i class="fas fa-bars"></i>
@@ -90,7 +90,7 @@
 			  <img src="img/oeil.jpg">
             </h2>
             <h3 class="post-subtitle">
-			  Ma veille technologique porte sur la computer vision. Computer vision signifie "vision par ordinateur". C'est la capacité d'un ordinateur à voir comme un humain.
+			  Ma veille technologique porte sur la computer vision. Computer vision signifie "vision par ordinateur". C'est la capacitÃ© d'un ordinateur Ã  voir comme un humain.
             </h3>
           </a>
         </div>
@@ -161,3 +161,4 @@
 
 
 </html>
+

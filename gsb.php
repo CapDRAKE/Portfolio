@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="fr">
 
 <head>
@@ -28,7 +28,7 @@
   <!-- Navigation -->
   <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
     <div class="container">
-      <a class="navbar-brand" href="index.html">Bastien LEUWERS</a>
+      <a class="navbar-brand" href="index.php">Bastien LEUWERS</a>
       <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
         Menu
         <i class="fas fa-bars"></i>
@@ -77,7 +77,7 @@
     </div>
   </header>
 	  <div class="col-lg-8 col-md-10 mx-auto">
-	          <p>Ce projet était notre premier projet de notre 2ème année. A travers ce projet nous devions découvrir le fonctionnement MVC. Nous devions reprendre une application web déjà existante et l'améliorer afin de répondre à un cahier des charges.</p>
+	          <p>Ce projet Ã©tait notre premier projet de notre 2Ã¨me annÃ©e. A travers ce projet nous devions dÃ©couvrir le fonctionnement MVC. Nous devions reprendre une application web dÃ©jÃ  existante et l'amÃ©liorer afin de rÃ©pondre Ã  un cahier des charges.</p>
 	  </div>
 	  <br/><br/>
 	
@@ -162,3 +162,4 @@
 
 
 </html>
+

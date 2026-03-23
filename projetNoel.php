@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="fr">
 
 <head>
@@ -28,7 +28,7 @@
   <!-- Navigation -->
   <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
     <div class="container">
-      <a class="navbar-brand" href="index.html">Bastien LEUWERS</a>
+      <a class="navbar-brand" href="index.php">Bastien LEUWERS</a>
       <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
         Menu
         <i class="fas fa-bars"></i>
@@ -70,15 +70,15 @@
 <!-- scripts -->
 <script src="particles.js-master/particles.js"></script>
 			  <script src="js/app.js"></script>
-            <h1>Site Noël</h1>
-            <span class="subheading">Une présentation pas comme les autres...</span>
+            <h1>Site NoÃ«l</h1>
+            <span class="subheading">Une prÃ©sentation pas comme les autres...</span>
           </div>
         </div>
       </div>
     </div>
   </header>
 	  <div class="col-lg-8 col-md-10 mx-auto">
-	          <p>Ceci est notre premier projet. L'objectif était de réaliser un site "vitrine" à travers lequel nous devions présenter la chose que l'on souhaiterait avoir pour noël. Ce projet était notre premier vrai projet de BTS et nous devions le réaliser en binôme.</p>
+	          <p>Ceci est notre premier projet. L'objectif Ã©tait de rÃ©aliser un site "vitrine" Ã  travers lequel nous devions prÃ©senter la chose que l'on souhaiterait avoir pour noÃ«l. Ce projet Ã©tait notre premier vrai projet de BTS et nous devions le rÃ©aliser en binÃ´me.</p>
 	  </div>
 	  <br/><br/>
 	
@@ -95,7 +95,7 @@
       </div>
       <div class="col-md-4">
 		<img src="img/noel3.jpg" height="300px" width="300px">
-		 <p>Page des avantages et inconvénients</p>
+		 <p>Page des avantages et inconvÃ©nients</p>
       </div>
     </div>
 	 <hr>
@@ -165,3 +165,4 @@
 
 
 </html>
+

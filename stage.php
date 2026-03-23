@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="fr">
 
 <head>
@@ -29,7 +29,7 @@
   <!-- Navigation -->
   <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
     <div class="container">
-      <a class="navbar-brand" href="index.html">Bastien LEUWERS</a>
+      <a class="navbar-brand" href="index.php">Bastien LEUWERS</a>
       <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
         Menu
         <i class="fas fa-bars"></i>
@@ -92,24 +92,24 @@
     <div class="row">
       <div class="col-lg-8 col-md-10 mx-auto">
 		 <center><img src="img/ibp.png" height="250px" width="600px"></center>
-		  <p>i-BP a été créé en 2001 suite à une décision du Groupe Banque Populaire de rapprocher ses moyens informatiques. C’est le regroupement de 4 centres informatiques régionaux .</p>
-		  <p>i-BP assure le développement informatique du Système d’Information de 11 Banques Populaires, de la Banque Palatine et de la Banque De Savoie</p>
-		  <p>C'est au sein de cette entreprise que j'ai réalisé mon stage de deuxième année qui aura duré 6 semaines.</p>
+		  <p>i-BP a Ã©tÃ© crÃ©Ã© en 2001 suite Ã  une dÃ©cision du Groupe Banque Populaire de rapprocher ses moyens informatiques. Câ€™est le regroupement de 4 centres informatiques rÃ©gionaux .</p>
+		  <p>i-BP assure le dÃ©veloppement informatique du SystÃ¨me dâ€™Information de 11 Banques Populaires, de la Banque Palatine et de la Banque De Savoie</p>
+		  <p>C'est au sein de cette entreprise que j'ai rÃ©alisÃ© mon stage de deuxiÃ¨me annÃ©e qui aura durÃ© 6 semaines.</p>
 		  <hr>
-			<center><h2>Stage i-BP | Mes Missions et Réalisations</h2></center>
+			<center><h2>Stage i-BP | Mes Missions et RÃ©alisations</h2></center>
 		  <hr>
-		  <p>Le thème principal de mon stage était la conception et la réalisation de tests effectués dans le cadre d’une évolution sur le Système d’Information. 
-Pour cela, j’ai utilisé l’outil « Octane », un outil propre à l’entreprise permettant la création des tests mais également leur réalisation.</p>
+		  <p>Le thÃ¨me principal de mon stage Ã©tait la conception et la rÃ©alisation de tests effectuÃ©s dans le cadre dâ€™une Ã©volution sur le SystÃ¨me dâ€™Information. 
+Pour cela, jâ€™ai utilisÃ© lâ€™outil Â« Octane Â», un outil propre Ã  lâ€™entreprise permettant la crÃ©ation des tests mais Ã©galement leur rÃ©alisation.</p>
 		  <center><img src="img/octane.jpg" height="200px" width="600px"></center>
-		  <p>J’ai également eu l’occasion d’utiliser l’application Confluence afin d’y créer une page nommée « Kit du nouvel arrivant ». Ce travail était au second plan, les tests étant le thème principal de mon stage. </p>
+		  <p>Jâ€™ai Ã©galement eu lâ€™occasion dâ€™utiliser lâ€™application Confluence afin dâ€™y crÃ©er une page nommÃ©e Â« Kit du nouvel arrivant Â». Ce travail Ã©tait au second plan, les tests Ã©tant le thÃ¨me principal de mon stage. </p>
 		  <center><img src="img/confluence.png" height="80px" width="600px"></center>
-		  <p>Par ailleurs, l’objectif de mon stage était de me présenter la méthode Agile Scrum. A travers un grand nombre de réunions, de formations et de présentations, j’ai pu découvrir les différentes méthodes de travail dont la méthode Agile.</p>
+		  <p>Par ailleurs, lâ€™objectif de mon stage Ã©tait de me prÃ©senter la mÃ©thode Agile Scrum. A travers un grand nombre de rÃ©unions, de formations et de prÃ©sentations, jâ€™ai pu dÃ©couvrir les diffÃ©rentes mÃ©thodes de travail dont la mÃ©thode Agile.</p>
 		  <hr>
 			<center><h2>Stage i-BP | Conclusion</h2></center>
 		  <hr>
-		  <p>Ce stage aura duré 6 semaines, et a été plus que bénéfique, de par les missions qui m’ont été confiées. J’ai appris beaucoup également à travers les différentes réunions auxquelles j’ai pu assister.
-J’ai pu découvrir le monde de l’entreprise et cela m’a conforté dans ma volonté de poursuivre mes études en alternance l’année prochaine. 
-J’ai également pu découvrir l’ensemble des métiers d’i-BP et le fonctionnement concret de la méthode Agile. </p>
+		  <p>Ce stage aura durÃ© 6 semaines, et a Ã©tÃ© plus que bÃ©nÃ©fique, de par les missions qui mâ€™ont Ã©tÃ© confiÃ©es. Jâ€™ai appris beaucoup Ã©galement Ã  travers les diffÃ©rentes rÃ©unions auxquelles jâ€™ai pu assister.
+Jâ€™ai pu dÃ©couvrir le monde de lâ€™entreprise et cela mâ€™a confortÃ© dans ma volontÃ© de poursuivre mes Ã©tudes en alternance lâ€™annÃ©e prochaine. 
+Jâ€™ai Ã©galement pu dÃ©couvrir lâ€™ensemble des mÃ©tiers dâ€™i-BP et le fonctionnement concret de la mÃ©thode Agile. </p>
 
 		</div>
 	  </div>

@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="fr">
 
 <head>
@@ -28,7 +28,7 @@
   <!-- Navigation -->
   <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
     <div class="container">
-      <a class="navbar-brand" href="index.html">Bastien LEUWERS</a>
+      <a class="navbar-brand" href="index.php">Bastien LEUWERS</a>
       <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
         Menu
         <i class="fas fa-bars"></i>
@@ -69,7 +69,7 @@
 			  <!-- scripts -->
 <script src="particles.js-master/particles.js"></script>
 			  <script src="js/app.js"></script>
-            <h1>GSB gestion des conférences</h1>
+            <h1>GSB gestion des confÃ©rences</h1>
             <span class="subheading">Projet CodeIgniter</span>
           </div>
         </div>
@@ -77,7 +77,7 @@
     </div>
   </header>
 	  <div class="col-lg-8 col-md-10 mx-auto">
-	          <p>Ce projet était notre dernier projet de notre seconde année. Ce projet était un projet web que nous devions réaliser durant notre stage. Nous devions utilise une base de données que nous avions créé au préalable. Nous avions une application Java pour nous aider. Cette application web devait être créée à l'aide du framework CodeIgniter. Cette application devait permettre la gestion des conférences, l'inscription, et la consultation des statistiques en fonction de l'utilisateur.</p>
+	          <p>Ce projet Ã©tait notre dernier projet de notre seconde annÃ©e. Ce projet Ã©tait un projet web que nous devions rÃ©aliser durant notre stage. Nous devions utilise une base de donnÃ©es que nous avions crÃ©Ã© au prÃ©alable. Nous avions une application Java pour nous aider. Cette application web devait Ãªtre crÃ©Ã©e Ã  l'aide du framework CodeIgniter. Cette application devait permettre la gestion des confÃ©rences, l'inscription, et la consultation des statistiques en fonction de l'utilisateur.</p>
 	  </div>
 	  <br/><br/>
 	
@@ -90,11 +90,11 @@
       </div>
       <div class="col-md-4">
 		<img src="img/affich.png" height="300px" width="300px">
-        <p>Page d'affichage des conférences</p>
+        <p>Page d'affichage des confÃ©rences</p>
       </div>
       <div class="col-md-4">
 		<img src="img/inscription.png" height="300px" width="300px">
-        <p>Inscription à une conférence</p>
+        <p>Inscription Ã  une confÃ©rence</p>
       </div>
     </div>
 		 <hr>
@@ -162,3 +162,4 @@
 
 
 </html>
+

@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="fr">
 
 <head>
@@ -29,7 +29,7 @@
   <!-- Navigation -->
   <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
     <div class="container">
-      <a class="navbar-brand" href="index.html">Bastien LEUWERS</a>
+      <a class="navbar-brand" href="index.php">Bastien LEUWERS</a>
       <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
         Menu
         <i class="fas fa-bars"></i>
@@ -73,7 +73,7 @@
 			  <script src="js/app.js"></script>
             <h1>Qui suis-je ?</h1>
 <i class="fa fa-camera-retro fa-2x"></i>
-            <span class="subheading">Ma présentation</span>
+            <span class="subheading">Ma prÃ©sentation</span>
 			  	  </div>
           </div>
         </div>
@@ -86,7 +86,7 @@
     <div class="row">
       <div class="col-lg-8 col-md-10 mx-auto">
         <p></p>
-        <p>Je m'appelle Bastien LEUWERS. Actuellement en BTS SIO, j'ai d'abord cherché ma voie. Après un bac STMG en spécialité "Ressources Humaines", j'ai ensuite commencé mes études par un DUT carrières juridiques. N'ayant pas, à ce moment-là, trouvé ma voie, j'ai décidé de me lancer dans un BTS informatique.</p>
+        <p>Je m'appelle Bastien LEUWERS. Actuellement en BTS SIO, j'ai d'abord cherchÃ© ma voie. AprÃ¨s un bac STMG en spÃ©cialitÃ© "Ressources Humaines", j'ai ensuite commencÃ© mes Ã©tudes par un DUT carriÃ¨res juridiques. N'ayant pas, Ã  ce moment-lÃ , trouvÃ© ma voie, j'ai dÃ©cidÃ© de me lancer dans un BTS informatique.</p>
 		  <hr>
 		<header>
 			<center><h2>Le BTS SIO(Services Informatiques aux Organisations)</h2></center>
@@ -94,12 +94,12 @@
 		  <hr>
 		  <center><img src="img/bts_sio.png" height="300px" width="600px"></center>
 		  		  <hr>
-		  <p>Le BTS Services informatiques aux Organisations est un diplôme reconnu par l’état de niveau Bac+2. Il remplace depuis septembre 2011 l’ancien BTS informatique de Gestion (BTS IG). En effet, cette nouvelle formule répond aux attentes de la profession en matière de qualification. Le programme a évolué en fonction de la place et du rôle des TIC (Technologies d’Information Communication) et propose deux spécialités bien distinctes : le BTS SIO SISR et le BTS SIO SLAM.</p>
-		  <p>SISR : L’option Solutions d’infrastructure, systèmes et réseaux forme des professionnels des réseaux et équipements informatiques (installation, maintenance, sécurité). En sortant d’un BTS SIO SISR, vous serez capables de gérer et d’administrer le réseau d’une société et d’assurer sa sécurité et sa maintenance.</p>
-		  <p>SLAM : L’option Solutions logicielles et applications métiers forme des spécialistes des logiciels (rédaction d’un cahier des charges, formulation des besoins et spécifications, développement, intégration au sein de la société).</p>
+		  <p>Le BTS Services informatiques aux Organisations est un diplÃ´me reconnu par lâ€™Ã©tat de niveau Bac+2. Il remplace depuis septembre 2011 lâ€™ancien BTS informatique de Gestion (BTS IG). En effet, cette nouvelle formule rÃ©pond aux attentes de la profession en matiÃ¨re de qualification. Le programme a Ã©voluÃ© en fonction de la place et du rÃ´le des TIC (Technologies dâ€™Information Communication) et propose deux spÃ©cialitÃ©s bien distinctes : le BTS SIO SISR et le BTS SIO SLAM.</p>
+		  <p>SISR : Lâ€™option Solutions dâ€™infrastructure, systÃ¨mes et rÃ©seaux forme des professionnels des rÃ©seaux et Ã©quipements informatiques (installation, maintenance, sÃ©curitÃ©). En sortant dâ€™un BTS SIO SISR, vous serez capables de gÃ©rer et dâ€™administrer le rÃ©seau dâ€™une sociÃ©tÃ© et dâ€™assurer sa sÃ©curitÃ© et sa maintenance.</p>
+		  <p>SLAM : Lâ€™option Solutions logicielles et applications mÃ©tiers forme des spÃ©cialistes des logiciels (rÃ©daction dâ€™un cahier des charges, formulation des besoins et spÃ©cifications, dÃ©veloppement, intÃ©gration au sein de la sociÃ©tÃ©).</p>
 		    <hr>
 		<header>
-			<center><h2>Mes compétences</h2></center>
+			<center><h2>Mes compÃ©tences</h2></center>
 		</header>
 		    <hr>
 		  </br>
@@ -163,7 +163,7 @@
 	  <hr>
 	<br/>
 <center><iframe src="cv/CVbastien.pdf" width="600" height="800" align="middle"></iframe></center>
-	<p><center><button type="submit" class="btn btn-secondary" href="noel/noel.html" onClick = "Javascript:window.open('cv/CVbastien.pdf');">Télécharger mon CV&raquo;</a></center></p>
+	<p><center><button type="submit" class="btn btn-secondary" href="noel/noel.html" onClick = "Javascript:window.open('cv/CVbastien.pdf');">TÃ©lÃ©charger mon CV&raquo;</a></center></p>
 	<section class="container">
 		<br/>
 		  <hr>
@@ -180,7 +180,7 @@
 				<header>
 					<h2>Bac STMG (Sciences et Technologies du Management et de la gestion) | 2016-2018</h2>
 				</header>
-				<p>Lycée Truffaut à Bondoufle (91) <br/>Avec mention Assez Bien</p>
+				<p>LycÃ©e Truffaut Ã  Bondoufle (91) <br/>Avec mention Assez Bien</p>
 		</div>
 		<div class="col-4 col-12-medium">
 			<section class="middle">
@@ -188,7 +188,7 @@
 				<center><img src="img/DUT.jpg" style="width:160px;"/></center>
 				<br/><br/>
 				<header>
-					<h2>DUT CJ (Carrières Juridiques) 1ère année | 2018-2019</h2>
+					<h2>DUT CJ (CarriÃ¨res Juridiques) 1Ã¨re annÃ©e | 2018-2019</h2>
 				</header>
 				<p>DUT de Troyes</p>
 			</section>
@@ -199,13 +199,13 @@
 				<header>
 					<h2>BTS SIO (Services Informatiques aux Organisations) | 2019-2021</h2>
 				</header>
-				<p>Lycée du Parc des Loges, Evry.<br/>Option SLAM (Solutions Logicielles et Applications Métiers)</p>
+				<p>LycÃ©e du Parc des Loges, Evry.<br/>Option SLAM (Solutions Logicielles et Applications MÃ©tiers)</p>
 			</section>
 		</div>
 	</div>
 		  <hr>
 		<header>
-			<center><h2>Mes Centres d'intérêts</h2></center>
+			<center><h2>Mes Centres d'intÃ©rÃªts</h2></center>
 		</header>
 		  <hr>
 		<div class="row">
@@ -217,7 +217,7 @@
 				<header>
 					<h2>Musique, instruments</h2>
 				</header>
-				<p>Je pratique de la batterie, du piano <br/>et également du dj</p>
+				<p>Je pratique de la batterie, du piano <br/>et Ã©galement du dj</p>
 		</div>
 		<div class="col-4 col-12-medium">
 			<section class="middle">
@@ -227,7 +227,7 @@
 				<header>
 					<h2>VTT</h2>
 				</header>
-				<p>Je pratique le VTT depuis plusieurs années</p>
+				<p>Je pratique le VTT depuis plusieurs annÃ©es</p>
 			</section>
 		</div>
 
@@ -283,3 +283,4 @@
 
 
 </html>
+
