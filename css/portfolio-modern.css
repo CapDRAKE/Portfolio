@@ -319,7 +319,15 @@ header.masthead .site-heading {
 header.masthead .page-heading h1,
 header.masthead .site-heading h1 {
   margin-bottom: 1rem;
-  font-size: clamp(2.7rem, 6vw, 5.4rem);
+  font-size: clamp(2.45rem, 5.4vw, 4.75rem);
+}
+
+header.masthead .page-heading h1 {
+  font-size: clamp(1.9rem, 4.2vw, 3.45rem);
+}
+
+header.masthead .site-heading h1 {
+  max-width: 11ch;
 }
 
 header.masthead .page-heading .subheading,
@@ -333,8 +341,9 @@ header.masthead .post-heading .subheading {
   font-family: "Inter", sans-serif;
 }
 
-.page-heading i,
-.site-heading i {
+header.masthead .page-heading > i,
+header.masthead .site-heading > i,
+header.masthead .post-heading > i {
   color: var(--orange);
   margin-bottom: 1.2rem;
 }
@@ -521,14 +530,15 @@ header.masthead .post-heading .subheading {
 .hero-badge {
   display: inline-flex;
   align-items: center;
-  gap: 12px;
+  gap: 10px;
   margin-bottom: 1.4rem;
-  padding: 0.52rem 1.05rem 0.52rem 0.58rem;
+  min-height: 40px;
+  padding: 0.42rem 0.92rem 0.42rem 0.56rem;
   border-radius: 999px;
   background: rgba(24, 15, 17, 0.92);
   border: 1px solid rgba(230, 57, 70, 0.22);
   color: #ff9aa1;
-  font-size: 0.8rem;
+  font-size: 0.78rem;
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 0.08em;
@@ -539,13 +549,20 @@ header.masthead .post-heading .subheading {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  width: 34px;
-  height: 34px;
+  width: 22px;
+  height: 22px;
   border-radius: 999px;
-  background: linear-gradient(135deg, rgba(230, 57, 70, 0.2), rgba(255, 183, 3, 0.12));
+  background: rgba(255, 183, 3, 0.09);
   color: var(--gold);
-  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.08);
+  font-size: 0.68rem;
+  line-height: 1;
+  margin-bottom: 0;
   flex-shrink: 0;
+}
+
+.hero-badge i::before {
+  display: block;
+  line-height: 1;
 }
 
 .hero-copy p {
@@ -1577,6 +1594,22 @@ footer a:focus .fa-circle {
   border-radius: 20px;
   background: rgba(255, 255, 255, 0.04);
   border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.school-spotlight {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 220px;
+}
+
+.school-spotlight img {
+  max-width: 220px;
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+  border: 0;
+  box-shadow: none;
 }
 
 .school-wordmark {

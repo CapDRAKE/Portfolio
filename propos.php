@@ -38,7 +38,7 @@
     <div class="container">
       <div class="page-heading">
         <div class="hero-badge"><i class="fas fa-user"></i> Profil</div>
-        <h1>Développeur Full Stack à dominante Java.</h1>
+        <h1>Full Stack, dominante Java.</h1>
         <span class="subheading">Je travaille principalement sur des sujets logiciel, Java, data et applications, avec plus de 4 ans d'expérience entre alternance et entreprise.</span>
       </div>
     </div>
@@ -76,11 +76,32 @@
 
     <section class="site-section reveal">
       <div class="section-shell">
+        <div class="section-tag">ESGI</div>
+        <h2>Une école d'informatique tournée vers les projets et l'alternance.</h2>
+        <p class="section-lead">C'est à l'ESGI que j'ai construit la partie la plus récente de mon parcours, avec une montée en compétences autour du développement logiciel, de la data et de l'architecture applicative.</p>
+        <div class="split-layout">
+          <div class="image-frame school-spotlight">
+            <img src="img/esgi-logo.svg" alt="Logo ESGI">
+          </div>
+          <div>
+            <ul class="check-list">
+              <li>9 spécialisations informatiques du bachelor au mastère.</li>
+              <li>Alternance possible dès la première année.</li>
+              <li>18 campus en France selon la présentation de l'école.</li>
+            </ul>
+            <p>J'y ai suivi un Bachelor Intelligence Artificielle et Big Data, puis un Master Architecture des Logiciels, avec une progression centrée sur Java, la conception et les environnements applicatifs.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="site-section reveal">
+      <div class="section-shell">
         <div class="section-tag">Formation</div>
-        <h2>L'ESGI a structuré la partie la plus récente de mon parcours.</h2>
+        <h2>Mon cursus</h2>
         <div class="course-list">
           <article class="career-card school-card">
-            <div class="school-logo school-wordmark" aria-label="ESGI"><span>ESGI</span></div>
+            <img class="school-logo" src="img/esgi-logo.svg" alt="Logo ESGI">
             <div>
               <div class="meta">2022 - 2024</div>
               <h3>Master Architecture des Logiciels</h3>
@@ -89,7 +110,7 @@
             </div>
           </article>
           <article class="career-card school-card">
-            <div class="school-logo school-wordmark" aria-label="ESGI"><span>ESGI</span></div>
+            <img class="school-logo" src="img/esgi-logo.svg" alt="Logo ESGI">
             <div>
               <div class="meta">2021 - 2022</div>
               <h3>Bachelor Intelligence Artificielle et Big Data</h3>
@@ -188,8 +209,6 @@
       <div class="row">
         <div class="col-lg-8 col-md-10 mx-auto">
           <ul class="list-inline text-center">
-            <li class="list-inline-item"><a href="https://twitter.com/BastienLEUWERS"><span class="fa-stack fa-lg"><i class="fas fa-circle fa-stack-2x"></i><i class="fab fa-twitter fa-stack-1x fa-inverse"></i></span></a></li>
-            <li class="list-inline-item"><a href="https://www.facebook.com/bastien.leuwers.54"><span class="fa-stack fa-lg"><i class="fas fa-circle fa-stack-2x"></i><i class="fab fa-facebook-f fa-stack-1x fa-inverse"></i></span></a></li>
             <li class="list-inline-item"><a href="https://github.com/CapDRAKE"><span class="fa-stack fa-lg"><i class="fas fa-circle fa-stack-2x"></i><i class="fab fa-github fa-stack-1x fa-inverse"></i></span></a></li>
           </ul>
           <p class="copyright text-muted">Copyright &copy; Portfolio Bastien Leuwers 2026</p>

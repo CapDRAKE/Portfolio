@@ -39,7 +39,7 @@
       <div class="home-hero-grid">
         <div class="hero-copy site-heading">
           <div class="hero-badge"><i class="fas fa-layer-group"></i> Développeur Full Stack</div>
-          <h1>Je développe des applications, des plateformes et des outils avec une dominante Java.</h1>
+          <h1>Applications, produits et plateformes.</h1>
           <span class="subheading">Ingénieur logiciel chez SII en mission chez Thales, je cumule plus de 4 ans d'expérience entre alternance et entreprise sur des sujets Java, data, produits applicatifs et développement d'outils. En parallèle, je développe aussi des projets personnels autour de Minecraft, de l'IA et d'expériences pensées pour l'utilisateur.</span>
           <div class="hero-actions">
             <a class="btn btn-primary btn-xl" href="projet.php"><i class="fas fa-rocket"></i> Voir mes projets</a>
@@ -238,8 +238,6 @@
       <div class="row">
         <div class="col-lg-8 col-md-10 mx-auto">
           <ul class="list-inline text-center">
-            <li class="list-inline-item"><a href="https://twitter.com/BastienLEUWERS"><span class="fa-stack fa-lg"><i class="fas fa-circle fa-stack-2x"></i><i class="fab fa-twitter fa-stack-1x fa-inverse"></i></span></a></li>
-            <li class="list-inline-item"><a href="https://www.facebook.com/bastien.leuwers.54"><span class="fa-stack fa-lg"><i class="fas fa-circle fa-stack-2x"></i><i class="fab fa-facebook-f fa-stack-1x fa-inverse"></i></span></a></li>
             <li class="list-inline-item"><a href="https://github.com/CapDRAKE"><span class="fa-stack fa-lg"><i class="fas fa-circle fa-stack-2x"></i><i class="fab fa-github fa-stack-1x fa-inverse"></i></span></a></li>
           </ul>
           <p class="copyright text-muted">Copyright &copy; Portfolio Bastien Leuwers 2026</p>

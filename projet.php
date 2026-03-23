@@ -38,7 +38,7 @@
     <div class="container">
       <div class="page-heading">
         <div class="hero-badge"><i class="fas fa-folder-open"></i> Projets</div>
-        <h1>Applications, produits et projets personnels.</h1>
+        <h1>Produits, outils et projets.</h1>
         <span class="subheading">Je travaille sur des projets orientés logiciel, Java, data et web, avec une place importante pour les produits que je construis et que je maintiens dans la durée.</span>
       </div>
     </div>
@@ -227,8 +227,6 @@
       <div class="row">
         <div class="col-lg-8 col-md-10 mx-auto">
           <ul class="list-inline text-center">
-            <li class="list-inline-item"><a href="https://twitter.com/BastienLEUWERS"><span class="fa-stack fa-lg"><i class="fas fa-circle fa-stack-2x"></i><i class="fab fa-twitter fa-stack-1x fa-inverse"></i></span></a></li>
-            <li class="list-inline-item"><a href="https://www.facebook.com/bastien.leuwers.54"><span class="fa-stack fa-lg"><i class="fas fa-circle fa-stack-2x"></i><i class="fab fa-facebook-f fa-stack-1x fa-inverse"></i></span></a></li>
             <li class="list-inline-item"><a href="https://github.com/CapDRAKE"><span class="fa-stack fa-lg"><i class="fas fa-circle fa-stack-2x"></i><i class="fab fa-github fa-stack-1x fa-inverse"></i></span></a></li>
           </ul>
           <p class="copyright text-muted">Copyright &copy; Portfolio Bastien Leuwers 2026</p>
