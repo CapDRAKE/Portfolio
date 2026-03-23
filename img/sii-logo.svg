@@ -1,8 +1,8 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 160" role="img" aria-labelledby="title">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 300" role="img" aria-labelledby="title">
   <title id="title">Logo SII</title>
-  <g transform="translate(150 80) rotate(-16)">
-    <ellipse cx="0" cy="0" rx="124" ry="64" fill="#0058ad"/>
-    <ellipse cx="14" cy="-8" rx="112" ry="54" fill="#8db4db"/>
-    <text x="0" y="28" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="98" font-style="italic" font-weight="700" letter-spacing="-10" fill="#ffffff">sii</text>
+  <g transform="translate(300 150) rotate(-16)">
+    <ellipse cx="0" cy="0" rx="160" ry="84" fill="#0058ad"/>
+    <ellipse cx="18" cy="-12" rx="142" ry="70" fill="#8fb6dc"/>
+    <text x="0" y="38" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="146" font-style="italic" font-weight="700" letter-spacing="-14" fill="#ffffff">sii</text>
   </g>
 </svg>

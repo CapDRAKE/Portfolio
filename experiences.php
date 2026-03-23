@@ -52,10 +52,10 @@
         <div class="career-list">
           <article class="career-card">
             <div class="company-logo-strip">
-              <span class="company-logo-chip">
+              <span class="company-logo-chip company-logo-chip-sii">
                 <img class="company-logo company-logo-sii" src="img/sii-logo.svg" alt="Logo SII">
               </span>
-              <span class="company-logo-chip">
+              <span class="company-logo-chip company-logo-chip-thales">
                 <img class="company-logo company-logo-thales" src="img/thales-logo.svg" alt="Logo Thales">
               </span>
             </div>
@@ -84,10 +84,10 @@
           <div class="section-tag">Expérience actuelle</div>
           <h2>SII / Thales</h2>
           <div class="company-logo-strip">
-            <span class="company-logo-chip">
+            <span class="company-logo-chip company-logo-chip-sii">
               <img class="company-logo company-logo-sii" src="img/sii-logo.svg" alt="Logo SII">
             </span>
-            <span class="company-logo-chip">
+            <span class="company-logo-chip company-logo-chip-thales">
               <img class="company-logo company-logo-thales" src="img/thales-logo.svg" alt="Logo Thales">
             </span>
           </div>

@@ -1,5 +1,7 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 120" role="img" aria-labelledby="title">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 240" role="img" aria-labelledby="title">
   <title id="title">Logo Thales</title>
-  <text x="380" y="86" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="92" font-weight="700" letter-spacing="10" fill="#2d2f85">THALES</text>
-  <circle cx="390" cy="71" r="11" fill="#63c3d9"/>
+  <text x="450" y="126" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="120" font-weight="700" letter-spacing="8" fill="#2d2f85">THALES</text>
+  <circle cx="465" cy="106" r="13" fill="#63c3d9"/>
+  <text x="450" y="182" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="44" font-weight="700" fill="#63c3d9">Building a future </text>
+  <text x="660" y="182" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="44" font-weight="700" fill="#2d2f85">we can all trust</text>
 </svg>

@@ -1596,7 +1596,7 @@ footer a:focus .fa-circle {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  min-height: 72px;
+  min-height: 84px;
   padding: 0.65rem 0.9rem;
   border-radius: 20px;
   border: 1px solid rgba(255, 255, 255, 0.08);
@@ -1604,11 +1604,20 @@ footer a:focus .fa-circle {
   box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.04);
 }
 
+.company-logo-chip.company-logo-chip-sii {
+  min-width: 118px;
+}
+
+.company-logo-chip.company-logo-chip-thales {
+  min-width: 240px;
+}
+
 .company-logo {
   display: block;
-  width: auto;
-  height: 36px;
-  max-width: 180px;
+  width: 100%;
+  height: auto;
+  max-width: 200px;
+  max-height: 62px;
   object-fit: contain;
   border: 0;
   border-radius: 0;
@@ -1616,13 +1625,13 @@ footer a:focus .fa-circle {
 }
 
 .company-logo.company-logo-sii {
-  height: 46px;
-  max-width: 132px;
+  max-width: 118px;
+  max-height: 62px;
 }
 
 .company-logo.company-logo-thales {
-  height: 38px;
-  max-width: 190px;
+  max-width: 228px;
+  max-height: 72px;
 }
 
 .company-logo.company-logo-g2s {
@@ -1826,19 +1835,20 @@ body > .container > .row > .col-4 h2 {
   }
 
   .company-logo-chip {
-    min-height: 64px;
+    min-height: 76px;
   }
 
   .company-logo {
-    height: 30px;
+    max-height: 56px;
   }
 
   .company-logo.company-logo-sii {
-    height: 40px;
+    max-width: 104px;
   }
 
   .company-logo.company-logo-thales {
-    height: 34px;
+    max-width: 206px;
+    max-height: 64px;
   }
 
   .company-logo.company-logo-g2s {
