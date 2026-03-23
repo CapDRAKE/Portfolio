@@ -1,12 +1,8 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 340 180" role="img" aria-labelledby="title">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 200" role="img" aria-labelledby="title">
   <title id="title">Logo SII</title>
-  <g transform="translate(170 90) rotate(-18) translate(-170 -90)">
-    <ellipse cx="170" cy="90" rx="118" ry="60" fill="#0056a8"/>
-    <ellipse cx="188" cy="76" rx="106" ry="52" fill="#8fb8df"/>
-    <path d="M122 118c-10-7-19-17-23-32-5-18 1-37 18-49 13-9 29-12 46-11l-3 22c-9-1-18 1-24 5-11 7-13 18-7 27 4 7 12 12 20 17l8 5c12 8 25 19 28 38 3 18-4 35-19 45-15 10-35 12-54 10l3-22c13 2 25 0 33-5 8-5 11-13 10-21-2-10-10-16-19-22z" fill="#ffffff"/>
-    <path d="M186 34h20v106h-20z" fill="#ffffff"/>
-    <path d="M235 34h20v106h-20z" fill="#ffffff"/>
-    <path d="M183 21h26v19h-26z" fill="#ffffff"/>
-    <path d="M232 21h26v19h-26z" fill="#ffffff"/>
+  <g transform="translate(180 100) rotate(-16) translate(-180 -100)">
+    <ellipse cx="180" cy="100" rx="124" ry="64" fill="#0058ad"/>
+    <ellipse cx="194" cy="92" rx="112" ry="54" fill="#8db4db"/>
+    <text x="180" y="126" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="98" font-style="italic" font-weight="700" letter-spacing="-10" fill="#ffffff">sii</text>
   </g>
 </svg>

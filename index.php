@@ -72,8 +72,8 @@
       <div class="stats-strip reveal">
         <div class="stat-card"><div class="stat-value">4+</div><div class="stat-label">Années d'expérience</div></div>
         <div class="stat-card"><div class="stat-value">10+</div><div class="stat-label">Projets présentés</div></div>
-        <div class="stat-card"><div class="stat-value">3 ans</div><div class="stat-label">Maintenance AlternativeAPI</div></div>
-        <div class="stat-card"><div class="stat-value">2</div><div class="stat-label">Diplômes ESGI</div></div>
+        <div class="stat-card"><div class="stat-value">3 ans</div><div class="stat-label">AlternativeAPI maintenue</div></div>
+        <div class="stat-card"><div class="stat-value">Bac+5</div><div class="stat-label">Master ESGI</div></div>
       </div>
     </section>
 
